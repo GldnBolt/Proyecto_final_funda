@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at MousePS2ToLEDs.sv(21): always construct contains both blocking and non-blocking assignments File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/MousePS2ToLEDs.sv Line: 21

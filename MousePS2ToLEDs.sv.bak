@@ -1,0 +1,69 @@
+module MousePS2ToLEDs(
+    input logic clk,           // Reloj del sistema
+    input logic reset,         // Reset
+    input logic ps2_clk,       // PS/2 Clock
+    input logic ps2_data,      // PS/2 Data
+    output logic [4:0] leds    // LEDs: D, I, U, A, Click
+);
+
+    typedef enum logic [1:0] {
+        WAIT_START,
+        READ_BYTE,
+        PROCESS
+    } state_t;
+
+    state_t state = WAIT_START;
+
+    logic [7:0] byte [2:0];    // Buffer para 3 bytes del mouse
+    logic [3:0] bit_count = 0;
+    logic [7:0] shift_reg = 0;
+    logic [1:0] byte_index = 0;
+    logic prev_ps2_clk = 1;
+
+    always_ff @(posedge clk) begin
+        if (reset) begin
+            state <= WAIT_START;
+            byte_index <= 0;
+            bit_count <= 0;
+            leds <= 0;
+        end else begin
+            // Detectar flanco de bajada de ps2_clk
+            if (prev_ps2_clk && !ps2_clk) begin
+                shift_reg <= {ps2_data, shift_reg[7:1]};
+                bit_count <= bit_count + 1;
+
+                if (bit_count == 10) begin
+                    byte[byte_index] <= shift_reg[7:0];
+                    byte_index <= byte_index + 1;
+                    bit_count <= 0;
+
+                    if (byte_index == 2) begin
+                        state <= PROCESS;
+                    end
+                end
+            end
+            prev_ps2_clk <= ps2_clk;
+
+            // Procesar datos
+            if (state == PROCESS) begin
+                logic signed [7:0] dx = byte[1];
+                logic signed [7:0] dy = byte[2];
+                logic [7:0] b0 = byte[0];
+
+                leds <= 5'b00000;
+
+                if (dx > 0) leds[0] = 1; // Derecha
+                else if (dx < 0) leds[1] = 1; // Izquierda
+
+                if (dy < 0) leds[2] = 1; // Arriba (inverso en PS/2)
+                else if (dy > 0) leds[3] = 1; // Abajo
+
+                if (b0[0] || b0[1]) leds[4] = 1; // Clic izq o der
+
+                // Reiniciar
+                state <= WAIT_START;
+                byte_index <= 0;
+            end
+        end
+    end
+endmodule
