@@ -1,4 +1,5 @@
-// HDL Example 7.12 TESTBENCH
+`timescale 1ns/1ps
+
 module testbench();
     logic        clk;
     logic        reset;

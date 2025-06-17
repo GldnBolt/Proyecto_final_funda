@@ -1,5 +1,5 @@
 Flow report for proyecto_final_taller
-Mon Jun 16 13:58:44 2025
+Mon Jun 16 21:07:19 2025
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +-----------------------------+------------------------------------------------+
-; Flow Status                 ; Successful - Mon Jun 16 13:58:44 2025          ;
+; Flow Status                 ; Successful - Mon Jun 16 21:07:19 2025          ;
 ; Quartus Prime Version       ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name               ; proyecto_final_taller                          ;
 ; Top-level Entity Name       ; top                                            ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+-----------------------+
 ; Option            ; Setting               ;
 +-------------------+-----------------------+
-; Start date & time ; 06/16/2025 13:58:38   ;
+; Start date & time ; 06/16/2025 21:07:14   ;
 ; Main task         ; Compilation           ;
 ; Revision Name     ; proyecto_final_taller ;
 +-------------------+-----------------------+
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+-----------------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value         ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+-----------------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 66504332970042.175010391833600         ; --                    ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 66504332970042.175012963439652         ; --                    ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                    ; --          ; testbench                         ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                    ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                    ; --          ; eda_board_design_boundary_scan    ;
@@ -106,8 +106,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:06     ; 1.0                     ; 4792 MB             ; 00:00:14                           ;
-; Total                  ; 00:00:06     ; --                      ; --                  ; 00:00:14                           ;
+; Analysis & Elaboration ; 00:00:06     ; 1.0                     ; 4792 MB             ; 00:00:15                           ;
+; Total                  ; 00:00:06     ; --                      ; --                  ; 00:00:15                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -1,5 +1,5 @@
 Analysis & Elaboration report for proyecto_final_taller
-Mon Jun 16 13:58:44 2025
+Mon Jun 16 21:07:19 2025
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -51,7 +51,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                 ;
 +-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Mon Jun 16 13:58:44 2025          ;
+; Analysis & Elaboration Status ; Successful - Mon Jun 16 21:07:19 2025          ;
 ; Quartus Prime Version         ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                 ; proyecto_final_taller                          ;
 ; Top-level Entity Name         ; top                                            ;
@@ -306,7 +306,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Mon Jun 16 13:58:38 2025
+    Info: Processing started: Mon Jun 16 21:07:13 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off proyecto_final_taller -c proyecto_final_taller --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
@@ -375,9 +375,9 @@ Info (12128): Elaborating entity "dmem" for hierarchy "dmem:dmem0" File: C:/User
 Info (144001): Generated suppressed messages file C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/output_files/proyecto_final_taller.map.smsg
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 4792 megabytes
-    Info: Processing ended: Mon Jun 16 13:58:44 2025
+    Info: Processing ended: Mon Jun 16 21:07:19 2025
     Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:14
+    Info: Total CPU time (on all processors): 00:00:15
 
 
 +--------------------------------------------+

@@ -10,7 +10,7 @@ module imem(
 
     // Inicializa la ROM desde el fichero ROM.dat
     initial begin
-        $readmemh("ROM.dat", RAM);
+        $readmemh("C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/memfile.dat", RAM);
     end
 
     // Lectura combinacional, alineada a palabra
