@@ -1,4 +1,3 @@
-// HDL Example 7.5 DATAPATH
 module datapath(
     input  logic        clk,
     input  logic        reset,

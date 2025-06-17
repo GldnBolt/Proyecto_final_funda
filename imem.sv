@@ -8,7 +8,6 @@ module imem(
     // Banco de 64 palabras de 32 bits
     logic [31:0] RAM [0:63];
 
-    // Inicializa la ROM desde el fichero ROM.dat
     initial begin
         $readmemh("C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/memfile.dat", RAM);
     end

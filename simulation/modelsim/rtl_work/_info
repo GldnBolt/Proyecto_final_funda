@@ -11,7 +11,7 @@ cModel Technology
 Z0 dC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/simulation/modelsim
 vadder
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1750129732
+Z2 !s110 1750131325
 !i10b 1
 !s100 ETNY[;]iGYASWbhO66[<J3
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -28,7 +28,7 @@ Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1750129732.000000
+Z6 !s108 1750131325.000000
 !s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/adder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/adder.sv|
 !i113 1
@@ -37,7 +37,7 @@ Z8 !s92 -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proy
 Z9 tCvgOpt 0
 valu
 R1
-Z10 !s110 1750129733
+Z10 !s110 1750131326
 !i10b 1
 !s100 5ElZKTUEUh`5Ak>^VO;f:0
 R3
@@ -54,7 +54,7 @@ R5
 r1
 !s85 0
 31
-Z11 !s108 1750129733.000000
+Z11 !s108 1750131326.000000
 !s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/alu.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/alu.sv|
 !i113 1
@@ -127,7 +127,7 @@ R12
 R13
 R14
 !i122 3
-Z17 L0 2 47
+L0 2 47
 R5
 r1
 !s85 0
@@ -169,17 +169,17 @@ vdatapath
 R1
 R2
 !i10b 1
-!s100 C0O<o5;KM122COOm3FlfV1
+!s100 g`U8dfAWA36_NTd4Z:G[;3
 R3
-II3fonMFk4^ERSdH7ZRW;f0
+IN@n5eiAGiEakIZ]MG[kVH1
 R4
 S1
 R0
-w1750056160
+w1750130448
 8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv
 FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv
 !i122 4
-R17
+L0 1 47
 R5
 r1
 !s85 0
@@ -325,17 +325,17 @@ vimem
 R1
 R10
 !i10b 1
-!s100 LL;1OKSI[eO0Z0@EN1Tz<0
+!s100 `zR0?4ePkD8IF4J`?7c7i0
 R3
-IWOITUS6=0Gi=>CzC;Za6L2
+IUaLACQ<J]bl[@WbXB[FL;3
 R4
 S1
 R0
-w1750129630
+w1750131296
 8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv
 FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv
 !i122 14
-L0 3 17
+L0 3 16
 R5
 r1
 !s85 0
@@ -366,7 +366,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/mux2.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/mux2.sv|
 !i113 1
@@ -375,7 +375,7 @@ R8
 R9
 vregfile
 R1
-R10
+R2
 !i10b 1
 !s100 LL5g1J2N0=IBXQLkOoQbe1
 R3
@@ -401,24 +401,24 @@ R8
 R9
 vtestbench
 R1
-!s110 1750129734
+!s110 1750131327
 !i10b 1
-!s100 Vz`k1lAO5g=_`5c>zUL;R0
+!s100 _ok8Y70me<ii`1<DLE]:60
 R3
-IG2NT48535i0H^c@YfICOV2
+ISGI0W<n2<LQj[k=7X`4@g1
 R4
 S1
 R0
-w1750129699
+w1750131295
 8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench.sv
 FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench.sv
 !i122 15
-L0 3 44
+L0 3 45
 R5
 r1
 !s85 0
 31
-!s108 1750129734.000000
+!s108 1750131327.000000
 !s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench.sv|
 !i113 1

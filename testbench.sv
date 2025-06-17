@@ -32,6 +32,7 @@ module testbench();
 
     // check that 7 gets written to address 0x64 at end of program
     always @(negedge clk) begin
+		  $display("DataAdr: %d, WriteData: %d", DataAdr, WriteData);
         if (MemWrite) begin
             if (DataAdr === 100 && WriteData === 7) begin
                 $display("Simulation succeeded");
