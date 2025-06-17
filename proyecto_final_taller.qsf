@@ -75,7 +75,6 @@ set_global_assignment -name EDA_TEST_BENCH_NAME testbench -section_id eda_simula
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id testbench
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME testbench -section_id testbench
 set_global_assignment -name EDA_TEST_BENCH_FILE testbench.sv -section_id testbench
-set_global_assignment -name LICENSE_FILE ROM.dat
 set_global_assignment -name VERILOG_FILE ROM_bb.v
 set_global_assignment -name SYSTEMVERILOG_FILE vga_controller.sv
 set_global_assignment -name SYSTEMVERILOG_FILE MousePS2ToLEDs.sv
@@ -99,4 +98,6 @@ set_global_assignment -name SYSTEMVERILOG_FILE alu.sv
 set_global_assignment -name SYSTEMVERILOG_FILE dmem.sv
 set_global_assignment -name SYSTEMVERILOG_FILE imem.sv
 set_global_assignment -name SOURCE_FILE memfile.dat
+set_global_assignment -name SYSTEMVERILOG_FILE Counter.sv
+set_global_assignment -name SOURCE_FILE ROM.dat
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

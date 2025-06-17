@@ -57,6 +57,7 @@ vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyect
 vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopr.sv}
 vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopenr.sv}
 vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv}
+vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/counter.sv}
 vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/alu.sv}
 vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/dmem.sv}
 vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv}

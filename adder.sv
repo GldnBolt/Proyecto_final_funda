@@ -1,4 +1,3 @@
-// HDL Example 7.7 ADDER
 module adder #(
     parameter WIDTH = 8
 )(

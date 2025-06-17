@@ -1,6 +1,6 @@
 |top
-clk => clk.IN2
-reset => reset.IN1
+clk => clk.IN3
+reset => reset.IN2
 WriteData[0] << WriteData[0].DB_MAX_OUTPUT_PORT_TYPE
 WriteData[1] << WriteData[1].DB_MAX_OUTPUT_PORT_TYPE
 WriteData[2] << WriteData[2].DB_MAX_OUTPUT_PORT_TYPE
@@ -66,6 +66,41 @@ DataAdr[29] << DataAdr[29].DB_MAX_OUTPUT_PORT_TYPE
 DataAdr[30] << DataAdr[30].DB_MAX_OUTPUT_PORT_TYPE
 DataAdr[31] << DataAdr[31].DB_MAX_OUTPUT_PORT_TYPE
 MemWrite << MemWrite.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|Counter:cycle_counter_inst
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+clk => Q[4]~reg0.CLK
+clk => Q[5]~reg0.CLK
+clk => Q[6]~reg0.CLK
+clk => Q[7]~reg0.CLK
+rst => Q[0]~reg0.ACLR
+rst => Q[1]~reg0.ACLR
+rst => Q[2]~reg0.ACLR
+rst => Q[3]~reg0.ACLR
+rst => Q[4]~reg0.ACLR
+rst => Q[5]~reg0.ACLR
+rst => Q[6]~reg0.ACLR
+rst => Q[7]~reg0.ACLR
+en => Q[7]~reg0.ENA
+en => Q[6]~reg0.ENA
+en => Q[5]~reg0.ENA
+en => Q[4]~reg0.ENA
+en => Q[3]~reg0.ENA
+en => Q[2]~reg0.ENA
+en => Q[1]~reg0.ENA
+en => Q[0]~reg0.ENA
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |top|arm:arm0
@@ -388,8 +423,8 @@ CondEx <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |top|arm:arm0|datapath:dp
-clk => clk.IN2
-reset => reset.IN1
+clk => clk.IN3
+reset => reset.IN2
 RegSrc[0] => RegSrc[0].IN1
 RegSrc[1] => RegSrc[1].IN1
 RegWrite => RegWrite.IN1
@@ -564,6 +599,49 @@ ReadData[28] => ReadData[28].IN1
 ReadData[29] => ReadData[29].IN1
 ReadData[30] => ReadData[30].IN1
 ReadData[31] => ReadData[31].IN1
+cycle_counter[0] <= Counter:cycle_counter_inst.Q
+cycle_counter[1] <= Counter:cycle_counter_inst.Q
+cycle_counter[2] <= Counter:cycle_counter_inst.Q
+cycle_counter[3] <= Counter:cycle_counter_inst.Q
+cycle_counter[4] <= Counter:cycle_counter_inst.Q
+cycle_counter[5] <= Counter:cycle_counter_inst.Q
+cycle_counter[6] <= Counter:cycle_counter_inst.Q
+cycle_counter[7] <= Counter:cycle_counter_inst.Q
+
+
+|top|arm:arm0|datapath:dp|Counter:cycle_counter_inst
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+clk => Q[4]~reg0.CLK
+clk => Q[5]~reg0.CLK
+clk => Q[6]~reg0.CLK
+clk => Q[7]~reg0.CLK
+rst => Q[0]~reg0.ACLR
+rst => Q[1]~reg0.ACLR
+rst => Q[2]~reg0.ACLR
+rst => Q[3]~reg0.ACLR
+rst => Q[4]~reg0.ACLR
+rst => Q[5]~reg0.ACLR
+rst => Q[6]~reg0.ACLR
+rst => Q[7]~reg0.ACLR
+en => Q[7]~reg0.ENA
+en => Q[6]~reg0.ENA
+en => Q[5]~reg0.ENA
+en => Q[4]~reg0.ENA
+en => Q[3]~reg0.ENA
+en => Q[2]~reg0.ENA
+en => Q[1]~reg0.ENA
+en => Q[0]~reg0.ENA
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |top|arm:arm0|datapath:dp|mux2:pcmux

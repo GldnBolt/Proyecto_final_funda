@@ -11,24 +11,24 @@ cModel Technology
 Z0 dC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/simulation/modelsim
 vadder
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1750131325
+Z2 !s110 1750155059
 !i10b 1
-!s100 ETNY[;]iGYASWbhO66[<J3
+!s100 5RWo<zYeN5=XjXjTia>8>0
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I>5Hg]iNmVfIB=PXG_V[]Z1
+ICNXb0OkDKOW8cRMUZQ^fL0
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1750056252
+w1750144219
 8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/adder.sv
 FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/adder.sv
 !i122 5
-L0 2 9
+L0 1 9
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1750131325.000000
+Z6 !s108 1750155059.000000
 !s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/adder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/adder.sv|
 !i113 1
@@ -37,7 +37,7 @@ Z8 !s92 -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proy
 Z9 tCvgOpt 0
 valu
 R1
-Z10 !s110 1750131326
+Z10 !s110 1750155060
 !i10b 1
 !s100 5ElZKTUEUh`5Ak>^VO;f:0
 R3
@@ -45,16 +45,16 @@ IJINnPW:S4Lm[SYh`b7h0D3
 R4
 S1
 R0
-w1750102528
+w1750154930
 8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/alu.sv
 FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/alu.sv
-!i122 12
+!i122 13
 L0 3 46
 R5
 r1
 !s85 0
 31
-Z11 !s108 1750131326.000000
+Z11 !s108 1750155060.000000
 !s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/alu.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/alu.sv|
 !i113 1
@@ -165,21 +165,48 @@ R6
 R7
 R8
 R9
+vCounter
+R1
+R10
+!i10b 1
+!s100 H`dS@X]iZkBGkCzAN952h0
+R3
+I?^G;TBdzl:EPHL5_UhH::0
+R4
+S1
+R0
+w1750142031
+8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/counter.sv
+FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/counter.sv
+!i122 12
+L0 1 16
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/counter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/counter.sv|
+!i113 1
+R7
+R8
+R9
+n@counter
 vdatapath
 R1
 R2
 !i10b 1
-!s100 g`U8dfAWA36_NTd4Z:G[;3
+!s100 o;_hVC_:^9bemR?]To5e52
 R3
-IN@n5eiAGiEakIZ]MG[kVH1
+I@acfNRI>AS1NiA0aR;G2Z3
 R4
 S1
 R0
-w1750130448
+w1750153828
 8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv
 FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv
 !i122 4
-L0 1 47
+L0 1 61
 R5
 r1
 !s85 0
@@ -230,7 +257,7 @@ R0
 w1750102453
 8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/dmem.sv
 FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/dmem.sv
-!i122 13
+!i122 14
 L0 3 21
 R5
 r1
@@ -245,7 +272,7 @@ R8
 R9
 vextend
 R1
-R10
+R2
 !i10b 1
 !s100 XLX;Dl0=Zbmk]FWI4jQgB0
 R3
@@ -262,7 +289,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/extend.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/extend.sv|
 !i113 1
@@ -288,7 +315,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopenr.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopenr.sv|
 !i113 1
@@ -297,7 +324,7 @@ R8
 R9
 vflopr
 R1
-R10
+R2
 !i10b 1
 !s100 kkWWGGkPSnC8QLnF=N:ND2
 R3
@@ -314,7 +341,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopr.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopr.sv|
 !i113 1
@@ -325,16 +352,16 @@ vimem
 R1
 R10
 !i10b 1
-!s100 `zR0?4ePkD8IF4J`?7c7i0
+!s100 cWGZ83bn;4L0z5nYQMzgg0
 R3
-IUaLACQ<J]bl[@WbXB[FL;3
+I1SW;>13a8RKdEa?^FYlB90
 R4
 S1
 R0
-w1750131296
+w1750145472
 8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv
 FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv
-!i122 14
+!i122 15
 L0 3 16
 R5
 r1
@@ -349,7 +376,7 @@ R8
 R9
 vmux2
 R1
-R10
+R2
 !i10b 1
 !s100 6zN[Uom>nP:33>HaM7YT02
 R3
@@ -383,7 +410,7 @@ I5C;>fVViFei`9=2F:^G8V0
 R4
 S1
 R0
-w1750056328
+w1750155032
 8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/regfile.sv
 FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/regfile.sv
 !i122 6
@@ -401,24 +428,24 @@ R8
 R9
 vtestbench
 R1
-!s110 1750131327
+R10
 !i10b 1
-!s100 _ok8Y70me<ii`1<DLE]:60
+!s100 Vf_coGKjOQEUQf@@Z2Zd?1
 R3
-ISGI0W<n2<LQj[k=7X`4@g1
+Ihoe`7ccenl9c5PGn98>fd3
 R4
 S1
 R0
-w1750131295
+w1750154726
 8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench.sv
 FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench.sv
-!i122 15
-L0 3 45
+!i122 16
+L0 3 66
 R5
 r1
 !s85 0
 31
-!s108 1750131327.000000
+R11
 !s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench.sv|
 !i113 1
@@ -429,17 +456,17 @@ vtop
 R1
 R10
 !i10b 1
-!s100 L1KQQCBkU<`60DGUGeSWQ3
+!s100 fTPkJBj16k80G=5;LUXI83
 R3
-IWiA;kT=X`N_9FTOXM[PT01
+IQS4m55_2Ye>>E[VP?ST3a3
 R4
 S1
 R0
-w1750103426
+w1750154235
 8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv
 FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv
 !i122 11
-L0 3 41
+L0 3 62
 R5
 r1
 !s85 0
