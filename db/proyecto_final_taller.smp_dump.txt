@@ -1,5 +1,0 @@
-
-State Machine - |MousePS2ToLEDs|state
-Name state.PROCESS 
-state.00 0 
-state.PROCESS 1 

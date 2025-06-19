@@ -43,13 +43,18 @@ module top(
     );
 
     // Memoria de datos (dmem.sv)
+    // Memoria de datos de dos puertos (dmem.sv)
     dmem dmem0 (
-        .clk (clk),
-        .we  (MemWrite),
-        .a   (DataAdr),   // byte-address de datos
-        .wd  (WriteData), // dato a escribir
-        .rd  (ReadData)   // dato leído
+        .clk    (clk),        // reloj
+        .we     (MemWrite),   // habilita escritura en puerto 0
+        .addr0  (DataAdr),    // dirección byte-address puerto 0
+        .wd0    (WriteData),  // dato a escribir            puerto 0
+        .rd0    (ReadData),   // dato leído                 puerto 0
+
+        .addr1  (32'b0),      // puerto 1 sólo lectura: dirección fija a 0
+        .rd1    ()            // puerto 1 sólo lectura: salida no conectada
     );
+
 
     // Puedes usar el contador de ciclos para depuración o como señal de control en tu diseño
     // Ejemplo: puedes mostrar el valor de `cycle_counter` en la simulación con un display
