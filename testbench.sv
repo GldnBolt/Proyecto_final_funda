@@ -45,8 +45,8 @@ module testbench();
     always @(posedge clk or posedge reset) begin
         if (reset) begin
             $display("Reset active. Counter reset to 0");
-        end else if (cycle_counter == 64) begin
-            $display("Simulation finished after 64 cycles.");
+        end else if (cycle_counter == 24) begin
+            $display("Simulation finished after 24 cycles.");
             $stop;  
         end
     end
@@ -55,7 +55,7 @@ module testbench();
     always @(negedge clk) begin
 		  $display("DataAdr: %d, WriteData: %d", DataAdr, WriteData);
         if (MemWrite) begin
-            if (DataAdr === 100 && WriteData === 7) begin
+            if (DataAdr === 100 && WriteData === 10) begin
                 $display("Simulation succeeded");
                 $stop;
             end else if (DataAdr !== 96) begin
