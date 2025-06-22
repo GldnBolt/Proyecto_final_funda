@@ -1,29 +1,20 @@
-module startScreen (
-    input  logic [9:0] x,
-    input  logic [9:0] y,
-    input  logic       visible,
-    output logic [7:0] r,
-    output logic [7:0] g,
-    output logic [7:0] b
+module startScreen(
+    // Los pines 'x' e 'y' ya no se usan, pero los mantenemos 
+    // para que la conexión en el módulo 'toplevel' no se rompa.
+    input logic [9:0] x, y, 
+    input logic visible,
+    output logic [7:0] r, g, b
 );
 
-    always_comb begin
-        if (visible) begin
-            // Fondo verde con pequeña lógica condicional para evitar optimización completa
-            if ((x[2] ^ y[2]) == 1'b1) begin
-                r = 8'd0;
-                g = 8'd255;
-                b = 8'd0;
-            end else begin
-                r = 8'd0;
-                g = 8'd200;
-                b = 8'd0;
-            end
-        end else begin
-            r = 8'd0;
-            g = 8'd0;
-            b = 8'd0;
-        end
-    end
+    // La lógica ahora es muy simple.
+    // Usamos asignaciones continuas (assign) que son perfectas para esto.
+
+    // El rojo y el azul siempre estarán en cero.
+    assign r = 8'h00;
+    assign b = 8'h00;
+
+    // El verde ('g') dependerá únicamente de la señal 'visible'.
+    // Si visible es 1 (true), g = 255. Si no, g = 0.
+    assign g = visible ? 8'hFF : 8'h00;
 
 endmodule

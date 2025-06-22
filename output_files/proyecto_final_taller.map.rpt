@@ -1,6 +1,6 @@
 Analysis & Synthesis report for proyecto_final_taller
-Sun Jun 22 01:59:58 2025
-Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Sun Jun 22 17:43:30 2025
+Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
 ---------------------
@@ -13,45 +13,44 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. State Machine - |top|connect4_fsm:fsm|current_state
-  9. Registers Removed During Synthesis
- 10. General Register Statistics
- 11. Multiplexer Restructuring Statistics (Restructuring Performed)
- 12. Parameter Settings for User Entity Instance: vgaController:vgaCont
- 13. Parameter Settings for User Entity Instance: Counter:cycle_counter_inst
- 14. Parameter Settings for User Entity Instance: arm:arm0|Counter:cycle_counter_inst
- 15. Parameter Settings for User Entity Instance: arm:arm0|controller:c|condlogic:cl|flopenr:flagreg1
- 16. Parameter Settings for User Entity Instance: arm:arm0|controller:c|condlogic:cl|flopenr:flagreg0
- 17. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|Counter:cycle_counter_inst
- 18. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|mux2:pcmux
- 19. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|flopr:pcreg
- 20. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|adder:pcadd1
- 21. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|adder:pcadd2
- 22. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|mux2:ra1mux
- 23. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|mux2:ra2mux
- 24. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|mux2:resmux
- 25. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|mux2:srcbmux
- 26. Port Connectivity Checks: "dmem:dmem0"
- 27. Port Connectivity Checks: "arm:arm0|datapath:dp|mux2:ra1mux"
- 28. Port Connectivity Checks: "arm:arm0|datapath:dp|adder:pcadd2"
- 29. Port Connectivity Checks: "arm:arm0|datapath:dp|adder:pcadd1"
- 30. Port Connectivity Checks: "arm:arm0|datapath:dp|Counter:cycle_counter_inst"
- 31. Port Connectivity Checks: "arm:arm0|datapath:dp"
- 32. Port Connectivity Checks: "arm:arm0|Counter:cycle_counter_inst"
- 33. Port Connectivity Checks: "arm:arm0"
- 34. Port Connectivity Checks: "Counter:cycle_counter_inst"
- 35. Port Connectivity Checks: "connect4_fsm:fsm"
- 36. Post-Synthesis Netlist Statistics for Top Partition
- 37. Elapsed Time Per Partition
- 38. Analysis & Synthesis Messages
- 39. Analysis & Synthesis Suppressed Messages
+  8. Registers Removed During Synthesis
+  9. General Register Statistics
+ 10. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 11. Parameter Settings for User Entity Instance: vgaController:vgaCont
+ 12. Parameter Settings for User Entity Instance: Counter:cycle_counter_inst
+ 13. Parameter Settings for User Entity Instance: arm:arm0|Counter:cycle_counter_inst
+ 14. Parameter Settings for User Entity Instance: arm:arm0|controller:c|condlogic:cl|flopenr:flagreg1
+ 15. Parameter Settings for User Entity Instance: arm:arm0|controller:c|condlogic:cl|flopenr:flagreg0
+ 16. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|Counter:cycle_counter_inst
+ 17. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|mux2:pcmux
+ 18. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|flopr:pcreg
+ 19. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|adder:pcadd1
+ 20. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|adder:pcadd2
+ 21. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|mux2:ra1mux
+ 22. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|mux2:ra2mux
+ 23. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|mux2:resmux
+ 24. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|mux2:srcbmux
+ 25. Port Connectivity Checks: "dmem:dmem0"
+ 26. Port Connectivity Checks: "arm:arm0|datapath:dp|mux2:ra1mux"
+ 27. Port Connectivity Checks: "arm:arm0|datapath:dp|adder:pcadd2"
+ 28. Port Connectivity Checks: "arm:arm0|datapath:dp|adder:pcadd1"
+ 29. Port Connectivity Checks: "arm:arm0|datapath:dp|Counter:cycle_counter_inst"
+ 30. Port Connectivity Checks: "arm:arm0|datapath:dp"
+ 31. Port Connectivity Checks: "arm:arm0|Counter:cycle_counter_inst"
+ 32. Port Connectivity Checks: "arm:arm0"
+ 33. Port Connectivity Checks: "Counter:cycle_counter_inst"
+ 34. Port Connectivity Checks: "startScreen:initialScreenDrawer"
+ 35. Post-Synthesis Netlist Statistics for Top Partition
+ 36. Elapsed Time Per Partition
+ 37. Analysis & Synthesis Messages
+ 38. Analysis & Synthesis Suppressed Messages
 
 
 
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2022  Intel Corporation. All rights reserved.
+Copyright (C) 2023  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -71,14 +70,14 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +---------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Jun 22 01:59:57 2025          ;
-; Quartus Prime Version           ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
+; Analysis & Synthesis Status     ; Successful - Sun Jun 22 17:43:29 2025          ;
+; Quartus Prime Version           ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name                   ; proyecto_final_taller                          ;
 ; Top-level Entity Name           ; top                                            ;
 ; Family                          ; Cyclone V                                      ;
 ; Logic utilization (in ALMs)     ; N/A                                            ;
 ; Total registers                 ; 33080                                          ;
-; Total pins                      ; 40                                             ;
+; Total pins                      ; 96                                             ;
 ; Total virtual pins              ; 0                                              ;
 ; Total block memory bits         ; 0                                              ;
 ; Total DSP Blocks                ; 0                                              ;
@@ -99,7 +98,6 @@ https://fpgasoftware.intel.com/eula.
 ; Device                                                                          ; 5CSXFC6D6F31C6     ;                       ;
 ; Top-level entity name                                                           ; top                ; proyecto_final_taller ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V             ;
-; Maximum processors allowed for parallel compilation                             ; 8                  ;                       ;
 ; Use smart compilation                                                           ; Off                ; Off                   ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                    ;
 ; Enable compact report table                                                     ; Off                ; Off                   ;
@@ -185,51 +183,50 @@ https://fpgasoftware.intel.com/eula.
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
 ; Number detected on machine ; 16          ;
-; Maximum allowed            ; 8           ;
+; Maximum allowed            ; 16          ;
 ;                            ;             ;
 ; Average used               ; 1.02        ;
-; Maximum used               ; 8           ;
+; Maximum used               ; 16          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.5%      ;
+;     Processor 2            ;   0.2%      ;
 ;     Processor 3            ;   0.2%      ;
 ;     Processor 4            ;   0.2%      ;
 ;     Processor 5            ;   0.2%      ;
 ;     Processor 6            ;   0.2%      ;
-;     Processor 7            ;   0.2%      ;
-;     Processor 8            ;   0.2%      ;
+;     Processor 7            ;   0.1%      ;
+;     Processor 8            ;   0.1%      ;
+;     Processors 9-16        ;   0.1%      ;
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                           ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                       ; Library ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------+---------+
-; arm.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/arm.sv           ;         ;
-; controller.sv                    ; yes             ; User SystemVerilog HDL File  ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/controller.sv    ;         ;
-; decoder.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/decoder.sv       ;         ;
-; condlogic.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/condlogic.sv     ;         ;
-; datapath.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv      ;         ;
-; adder.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/adder.sv         ;         ;
-; regfile.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/regfile.sv       ;         ;
-; mux2.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/mux2.sv          ;         ;
-; extend.sv                        ; yes             ; User SystemVerilog HDL File  ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/extend.sv        ;         ;
-; flopr.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopr.sv         ;         ;
-; flopenr.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopenr.sv       ;         ;
-; top.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv           ;         ;
-; counter.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/counter.sv       ;         ;
-; alu.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/alu.sv           ;         ;
-; dmem.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/dmem.sv          ;         ;
-; imem.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv          ;         ;
-; ROM.dat                          ; yes             ; User Unspecified File        ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/ROM.dat          ;         ;
-; RAM.dat                          ; yes             ; User Unspecified File        ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/RAM.dat          ;         ;
-; pll.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/pll.sv           ;         ;
-; vgaController.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/vgaController.sv ;         ;
-; conect4_fsm.sv                   ; yes             ; User SystemVerilog HDL File  ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/conect4_fsm.sv   ;         ;
-; startScreen.sv                   ; yes             ; User SystemVerilog HDL File  ; C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv   ;         ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                              ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                                          ; Library ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
+; arm.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/arm.sv           ;         ;
+; decoder.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/decoder.sv       ;         ;
+; condlogic.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/condlogic.sv     ;         ;
+; datapath.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/datapath.sv      ;         ;
+; adder.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/adder.sv         ;         ;
+; regfile.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/regfile.sv       ;         ;
+; mux2.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/mux2.sv          ;         ;
+; extend.sv                        ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/extend.sv        ;         ;
+; flopr.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/flopr.sv         ;         ;
+; flopenr.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/flopenr.sv       ;         ;
+; top.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv           ;         ;
+; counter.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/counter.sv       ;         ;
+; alu.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/alu.sv           ;         ;
+; dmem.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/dmem.sv          ;         ;
+; imem.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/imem.sv          ;         ;
+; ROM.dat                          ; yes             ; User Unspecified File        ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/ROM.dat          ;         ;
+; pll.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/pll.sv           ;         ;
+; controller.sv                    ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/controller.sv    ;         ;
+; vgaController.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/vgaController.sv ;         ;
+; startScreen.sv                   ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/startScreen.sv   ;         ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -237,76 +234,58 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 22390     ;
+; Estimate of Logic utilization (ALMs needed) ; 22393     ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 12694     ;
-;     -- 7 input functions                    ; 3         ;
-;     -- 6 input functions                    ; 11069     ;
-;     -- 5 input functions                    ; 251       ;
-;     -- 4 input functions                    ; 179       ;
-;     -- <=3 input functions                  ; 1192      ;
+; Combinational ALUT usage for logic          ; 12923     ;
+;     -- 7 input functions                    ; 2         ;
+;     -- 6 input functions                    ; 11071     ;
+;     -- 5 input functions                    ; 236       ;
+;     -- 4 input functions                    ; 183       ;
+;     -- <=3 input functions                  ; 1431      ;
 ;                                             ;           ;
 ; Dedicated logic registers                   ; 33080     ;
 ;                                             ;           ;
-; I/O pins                                    ; 40        ;
+; I/O pins                                    ; 96        ;
 ;                                             ;           ;
 ; Total DSP Blocks                            ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
 ; Maximum fan-out                             ; 33060     ;
-; Total fan-out                               ; 171279    ;
-; Average fan-out                             ; 3.74      ;
+; Total fan-out                               ; 171624    ;
+; Average fan-out                             ; 3.72      ;
 +---------------------------------------------+-----------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                     ;
-+--------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------+---------------+--------------+
-; Compilation Hierarchy Node           ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                      ; Entity Name   ; Library Name ;
-+--------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------+---------------+--------------+
-; |top                                 ; 12694 (0)           ; 33080 (0)                 ; 0                 ; 0          ; 40   ; 0            ; |top                                                     ; top           ; work         ;
-;    |arm:arm0|                        ; 628 (0)             ; 291 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0                                            ; arm           ; work         ;
-;       |controller:c|                 ; 19 (0)              ; 3 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|controller:c                               ; controller    ; work         ;
-;          |condlogic:cl|              ; 10 (4)              ; 3 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|controller:c|condlogic:cl                  ; condlogic     ; work         ;
-;             |condcheck:cc|           ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|controller:c|condlogic:cl|condcheck:cc     ; condcheck     ; work         ;
-;             |flopenr:flagreg0|       ; 2 (2)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|controller:c|condlogic:cl|flopenr:flagreg0 ; flopenr       ; work         ;
-;             |flopenr:flagreg1|       ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|controller:c|condlogic:cl|flopenr:flagreg1 ; flopenr       ; work         ;
-;          |decoder:dec|               ; 9 (9)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|controller:c|decoder:dec                   ; decoder       ; work         ;
-;       |datapath:dp|                  ; 609 (0)             ; 288 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp                                ; datapath      ; work         ;
-;          |adder:pcadd1|              ; 30 (30)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|adder:pcadd1                   ; adder         ; work         ;
-;          |adder:pcadd2|              ; 30 (30)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|adder:pcadd2                   ; adder         ; work         ;
-;          |alu:alu0|                  ; 118 (118)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|alu:alu0                       ; alu           ; work         ;
-;          |extend:ext|                ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|extend:ext                     ; extend        ; work         ;
-;          |flopr:pcreg|               ; 0 (0)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|flopr:pcreg                    ; flopr         ; work         ;
-;          |mux2:ra1mux|               ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|mux2:ra1mux                    ; mux2          ; work         ;
-;          |mux2:ra2mux|               ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|mux2:ra2mux                    ; mux2          ; work         ;
-;          |mux2:resmux|               ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|mux2:resmux                    ; mux2          ; work         ;
-;          |mux2:srcbmux|              ; 51 (51)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|mux2:srcbmux                   ; mux2          ; work         ;
-;          |regfile:rf|                ; 331 (331)           ; 256 (256)                 ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|regfile:rf                     ; regfile       ; work         ;
-;    |dmem:dmem0|                      ; 12013 (12013)       ; 32768 (32768)             ; 0                 ; 0          ; 0    ; 0            ; |top|dmem:dmem0                                          ; dmem          ; work         ;
-;    |imem:imem0|                      ; 21 (21)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|imem:imem0                                          ; imem          ; work         ;
-;    |pll:vgapll|                      ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |top|pll:vgapll                                          ; pll           ; work         ;
-;    |startScreen:initialScreenDrawer| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|startScreen:initialScreenDrawer                     ; startScreen   ; work         ;
-;    |vgaController:vgaCont|           ; 30 (30)             ; 20 (20)                   ; 0                 ; 0          ; 0    ; 0            ; |top|vgaController:vgaCont                               ; vgaController ; work         ;
-+--------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------+---------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                               ;
++--------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------+---------------+--------------+
+; Compilation Hierarchy Node     ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                      ; Entity Name   ; Library Name ;
++--------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------+---------------+--------------+
+; |top                           ; 12923 (0)           ; 33080 (0)                 ; 0                 ; 0          ; 96   ; 0            ; |top                                                     ; top           ; work         ;
+;    |arm:arm0|                  ; 644 (0)             ; 291 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0                                            ; arm           ; work         ;
+;       |controller:c|           ; 19 (0)              ; 3 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|controller:c                               ; controller    ; work         ;
+;          |condlogic:cl|        ; 10 (4)              ; 3 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|controller:c|condlogic:cl                  ; condlogic     ; work         ;
+;             |condcheck:cc|     ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|controller:c|condlogic:cl|condcheck:cc     ; condcheck     ; work         ;
+;             |flopenr:flagreg0| ; 2 (2)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|controller:c|condlogic:cl|flopenr:flagreg0 ; flopenr       ; work         ;
+;             |flopenr:flagreg1| ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|controller:c|condlogic:cl|flopenr:flagreg1 ; flopenr       ; work         ;
+;          |decoder:dec|         ; 9 (9)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|controller:c|decoder:dec                   ; decoder       ; work         ;
+;       |datapath:dp|            ; 625 (0)             ; 288 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp                                ; datapath      ; work         ;
+;          |adder:pcadd1|        ; 30 (30)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|adder:pcadd1                   ; adder         ; work         ;
+;          |adder:pcadd2|        ; 30 (30)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|adder:pcadd2                   ; adder         ; work         ;
+;          |alu:alu0|            ; 134 (134)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|alu:alu0                       ; alu           ; work         ;
+;          |extend:ext|          ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|extend:ext                     ; extend        ; work         ;
+;          |flopr:pcreg|         ; 0 (0)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|flopr:pcreg                    ; flopr         ; work         ;
+;          |mux2:ra1mux|         ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|mux2:ra1mux                    ; mux2          ; work         ;
+;          |mux2:ra2mux|         ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|mux2:ra2mux                    ; mux2          ; work         ;
+;          |mux2:resmux|         ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|mux2:resmux                    ; mux2          ; work         ;
+;          |mux2:srcbmux|        ; 51 (51)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|mux2:srcbmux                   ; mux2          ; work         ;
+;          |regfile:rf|          ; 331 (331)           ; 256 (256)                 ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|regfile:rf                     ; regfile       ; work         ;
+;    |dmem:dmem0|                ; 12227 (12227)       ; 32768 (32768)             ; 0                 ; 0          ; 0    ; 0            ; |top|dmem:dmem0                                          ; dmem          ; work         ;
+;    |imem:imem0|                ; 21 (21)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|imem:imem0                                          ; imem          ; work         ;
+;    |pll:vgapll|                ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |top|pll:vgapll                                          ; pll           ; work         ;
+;    |vgaController:vgaCont|     ; 30 (30)             ; 20 (20)                   ; 0                 ; 0          ; 0    ; 0            ; |top|vgaController:vgaCont                               ; vgaController ; work         ;
++--------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------+---------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-Encoding Type:  One-Hot
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |top|connect4_fsm:fsm|current_state                                                                                                                                                                                                                ;
-+---------------------------------+---------------------------------+----------------------------+------------------------+----------------------------+------------------------+---------------------------------+------------------------+-------------------------+
-; Name                            ; current_state.VERIFICAR_GANADOR ; current_state.ESPERANDO_P2 ; current_state.TURNO_P2 ; current_state.ESPERANDO_P1 ; current_state.TURNO_P1 ; current_state.SELECCION_JUGADOR ; current_state.P_INICIO ; current_state.GAME_OVER ;
-+---------------------------------+---------------------------------+----------------------------+------------------------+----------------------------+------------------------+---------------------------------+------------------------+-------------------------+
-; current_state.P_INICIO          ; 0                               ; 0                          ; 0                      ; 0                          ; 0                      ; 0                               ; 0                      ; 0                       ;
-; current_state.SELECCION_JUGADOR ; 0                               ; 0                          ; 0                      ; 0                          ; 0                      ; 1                               ; 1                      ; 0                       ;
-; current_state.TURNO_P1          ; 0                               ; 0                          ; 0                      ; 0                          ; 1                      ; 0                               ; 1                      ; 0                       ;
-; current_state.ESPERANDO_P1      ; 0                               ; 0                          ; 0                      ; 1                          ; 0                      ; 0                               ; 1                      ; 0                       ;
-; current_state.TURNO_P2          ; 0                               ; 0                          ; 1                      ; 0                          ; 0                      ; 0                               ; 1                      ; 0                       ;
-; current_state.ESPERANDO_P2      ; 0                               ; 1                          ; 0                      ; 0                          ; 0                      ; 0                               ; 1                      ; 0                       ;
-; current_state.VERIFICAR_GANADOR ; 1                               ; 0                          ; 0                      ; 0                          ; 0                      ; 0                               ; 1                      ; 0                       ;
-; current_state.GAME_OVER         ; 0                               ; 0                          ; 0                      ; 0                          ; 0                      ; 0                               ; 1                      ; 1                       ;
-+---------------------------------+---------------------------------+----------------------------+------------------------+----------------------------+------------------------+---------------------------------+------------------------+-------------------------+
 
 
 +--------------------------------------------------------------------------------------------------------+
@@ -315,18 +294,6 @@ Encoding Type:  One-Hot
 ; Register name                                            ; Reason for Removal                          ;
 +----------------------------------------------------------+---------------------------------------------+
 ; arm:arm0|controller:c|condlogic:cl|flopenr:flagreg0|q[1] ; Lost fanout                                 ;
-; connect4_fsm:fsm|whose_turn                              ; Lost fanout                                 ;
-; connect4_fsm:fsm|current_state.SELECCION_JUGADOR         ; Lost fanout                                 ;
-; connect4_fsm:fsm|current_state.VERIFICAR_GANADOR         ; Lost fanout                                 ;
-; connect4_fsm:fsm|current_state~4                         ; Lost fanout                                 ;
-; connect4_fsm:fsm|current_state~5                         ; Lost fanout                                 ;
-; connect4_fsm:fsm|current_state~6                         ; Lost fanout                                 ;
-; connect4_fsm:fsm|current_state.TURNO_P1                  ; Stuck at GND due to stuck port data_in      ;
-; connect4_fsm:fsm|current_state.TURNO_P2                  ; Stuck at GND due to stuck port data_in      ;
-; connect4_fsm:fsm|current_state.GAME_OVER                 ; Lost fanout                                 ;
-; connect4_fsm:fsm|current_state.ESPERANDO_P1              ; Lost fanout                                 ;
-; connect4_fsm:fsm|current_state.ESPERANDO_P2              ; Lost fanout                                 ;
-; connect4_fsm:fsm|current_state.P_INICIO                  ; Stuck at GND due to stuck port data_in      ;
 ; arm:arm0|datapath:dp|regfile:rf|regs[1][0]               ; Stuck at GND due to stuck port clock_enable ;
 ; arm:arm0|datapath:dp|regfile:rf|regs[6][0]               ; Stuck at GND due to stuck port clock_enable ;
 ; arm:arm0|datapath:dp|regfile:rf|regs[9][0]               ; Stuck at GND due to stuck port clock_enable ;
@@ -375,22 +342,6 @@ Encoding Type:  One-Hot
 ; arm:arm0|datapath:dp|regfile:rf|regs[10][5]              ; Stuck at GND due to stuck port clock_enable ;
 ; arm:arm0|datapath:dp|regfile:rf|regs[14][5]              ; Stuck at GND due to stuck port clock_enable ;
 ; arm:arm0|datapath:dp|regfile:rf|regs[11][5]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][8]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][8]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][8]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][8]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][8]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][8]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][8]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][8]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][9]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][9]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][9]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][9]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][9]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][9]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][9]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][9]              ; Stuck at GND due to stuck port clock_enable ;
 ; arm:arm0|datapath:dp|regfile:rf|regs[1][6]               ; Stuck at GND due to stuck port clock_enable ;
 ; arm:arm0|datapath:dp|regfile:rf|regs[6][6]               ; Stuck at GND due to stuck port clock_enable ;
 ; arm:arm0|datapath:dp|regfile:rf|regs[9][6]               ; Stuck at GND due to stuck port clock_enable ;
@@ -407,6 +358,22 @@ Encoding Type:  One-Hot
 ; arm:arm0|datapath:dp|regfile:rf|regs[10][7]              ; Stuck at GND due to stuck port clock_enable ;
 ; arm:arm0|datapath:dp|regfile:rf|regs[14][7]              ; Stuck at GND due to stuck port clock_enable ;
 ; arm:arm0|datapath:dp|regfile:rf|regs[11][7]              ; Stuck at GND due to stuck port clock_enable ;
+; arm:arm0|datapath:dp|regfile:rf|regs[1][8]               ; Stuck at GND due to stuck port clock_enable ;
+; arm:arm0|datapath:dp|regfile:rf|regs[6][8]               ; Stuck at GND due to stuck port clock_enable ;
+; arm:arm0|datapath:dp|regfile:rf|regs[9][8]               ; Stuck at GND due to stuck port clock_enable ;
+; arm:arm0|datapath:dp|regfile:rf|regs[10][8]              ; Stuck at GND due to stuck port clock_enable ;
+; arm:arm0|datapath:dp|regfile:rf|regs[11][8]              ; Stuck at GND due to stuck port clock_enable ;
+; arm:arm0|datapath:dp|regfile:rf|regs[12][8]              ; Stuck at GND due to stuck port clock_enable ;
+; arm:arm0|datapath:dp|regfile:rf|regs[13][8]              ; Stuck at GND due to stuck port clock_enable ;
+; arm:arm0|datapath:dp|regfile:rf|regs[14][8]              ; Stuck at GND due to stuck port clock_enable ;
+; arm:arm0|datapath:dp|regfile:rf|regs[12][9]              ; Stuck at GND due to stuck port clock_enable ;
+; arm:arm0|datapath:dp|regfile:rf|regs[1][9]               ; Stuck at GND due to stuck port clock_enable ;
+; arm:arm0|datapath:dp|regfile:rf|regs[9][9]               ; Stuck at GND due to stuck port clock_enable ;
+; arm:arm0|datapath:dp|regfile:rf|regs[13][9]              ; Stuck at GND due to stuck port clock_enable ;
+; arm:arm0|datapath:dp|regfile:rf|regs[6][9]               ; Stuck at GND due to stuck port clock_enable ;
+; arm:arm0|datapath:dp|regfile:rf|regs[10][9]              ; Stuck at GND due to stuck port clock_enable ;
+; arm:arm0|datapath:dp|regfile:rf|regs[14][9]              ; Stuck at GND due to stuck port clock_enable ;
+; arm:arm0|datapath:dp|regfile:rf|regs[11][9]              ; Stuck at GND due to stuck port clock_enable ;
 ; arm:arm0|datapath:dp|regfile:rf|regs[1][10]              ; Stuck at GND due to stuck port clock_enable ;
 ; arm:arm0|datapath:dp|regfile:rf|regs[6][10]              ; Stuck at GND due to stuck port clock_enable ;
 ; arm:arm0|datapath:dp|regfile:rf|regs[9][10]              ; Stuck at GND due to stuck port clock_enable ;
@@ -583,7 +550,7 @@ Encoding Type:  One-Hot
 ; arm:arm0|datapath:dp|regfile:rf|regs[10][31]             ; Stuck at GND due to stuck port clock_enable ;
 ; arm:arm0|datapath:dp|regfile:rf|regs[14][31]             ; Stuck at GND due to stuck port clock_enable ;
 ; arm:arm0|datapath:dp|regfile:rf|regs[11][31]             ; Stuck at GND due to stuck port clock_enable ;
-; Total Number of Removed Registers = 269                  ;                                             ;
+; Total Number of Removed Registers = 257                  ;                                             ;
 +----------------------------------------------------------+---------------------------------------------+
 
 
@@ -607,13 +574,12 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                   ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
-; 3:1                ; 11 bits   ; 22 LEs        ; 22 LEs               ; 0 LEs                  ; No         ; |top|arm:arm0|datapath:dp|mux2:srcbmux|y[20] ;
+; 3:1                ; 11 bits   ; 22 LEs        ; 22 LEs               ; 0 LEs                  ; No         ; |top|arm:arm0|datapath:dp|mux2:srcbmux|y[14] ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |top|arm:arm0|datapath:dp|mux2:srcbmux|y[1]  ;
-; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |top|arm:arm0|datapath:dp|mux2:srcbmux|y[6]  ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |top|arm:arm0|datapath:dp|alu:alu0|Mux5      ;
-; 16:1               ; 32 bits   ; 320 LEs       ; 320 LEs              ; 0 LEs                  ; No         ; |top|arm:arm0|datapath:dp|regfile:rf|Mux52   ;
-; 16:1               ; 32 bits   ; 320 LEs       ; 320 LEs              ; 0 LEs                  ; No         ; |top|arm:arm0|datapath:dp|regfile:rf|Mux10   ;
-; 7:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; No         ; |top|connect4_fsm:fsm|Selector4              ;
+; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |top|arm:arm0|datapath:dp|mux2:srcbmux|y[4]  ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |top|arm:arm0|datapath:dp|alu:alu0|Mux29     ;
+; 16:1               ; 32 bits   ; 320 LEs       ; 320 LEs              ; 0 LEs                  ; No         ; |top|arm:arm0|datapath:dp|regfile:rf|Mux43   ;
+; 16:1               ; 32 bits   ; 320 LEs       ; 320 LEs              ; 0 LEs                  ; No         ; |top|arm:arm0|datapath:dp|regfile:rf|Mux6    ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
 
 
@@ -853,18 +819,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "connect4_fsm:fsm"                                                                          ;
-+-------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port        ; Type   ; Severity ; Details                                                                             ;
-+-------------+--------+----------+-------------------------------------------------------------------------------------+
-; reset_timer ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; p1_turn     ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; p2_turn     ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; game_over   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; random_move ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; player      ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+-------------+--------+----------+-------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "startScreen:initialScreenDrawer"                                                                                                                                                         ;
++-------------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                                                            ;
++-------------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; visible     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; visible[-1] ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
++-------------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -880,25 +842,25 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     ENA SCLR          ; 10                          ;
 ;     SCLR              ; 10                          ;
 ;     plain             ; 33                          ;
-; arriav_lcell_comb     ; 12697                       ;
+; arriav_lcell_comb     ; 12926                       ;
 ;     arith             ; 144                         ;
 ;         1 data inputs ; 80                          ;
 ;         4 data inputs ; 1                           ;
 ;         5 data inputs ; 63                          ;
-;     extend            ; 3                           ;
-;         7 data inputs ; 3                           ;
-;     normal            ; 12550                       ;
+;     extend            ; 2                           ;
+;         7 data inputs ; 2                           ;
+;     normal            ; 12780                       ;
 ;         0 data inputs ; 2                           ;
-;         1 data inputs ; 3                           ;
-;         2 data inputs ; 17                          ;
-;         3 data inputs ; 1093                        ;
-;         4 data inputs ; 178                         ;
-;         5 data inputs ; 188                         ;
-;         6 data inputs ; 11069                       ;
-; boundary_port         ; 40                          ;
+;         1 data inputs ; 216                         ;
+;         2 data inputs ; 16                          ;
+;         3 data inputs ; 1120                        ;
+;         4 data inputs ; 182                         ;
+;         5 data inputs ; 173                         ;
+;         6 data inputs ; 11071                       ;
+; boundary_port         ; 96                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 14.10                       ;
-; Average LUT depth     ; 7.92                        ;
+; Average LUT depth     ; 7.93                        ;
 +-----------------------+-----------------------------+
 
 
@@ -907,7 +869,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:38     ;
+; Top            ; 00:00:34     ;
 +----------------+--------------+
 
 
@@ -916,131 +878,132 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Sun Jun 22 01:59:10 2025
+    Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+    Info: Processing started: Sun Jun 22 17:42:47 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off proyecto_final_taller -c proyecto_final_taller
-Info (20032): Parallel compilation is enabled and will use up to 8 processors
-Info (12021): Found 1 design units, including 1 entities, in source file vga_controller.sv
-    Info (12023): Found entity 1: vga_controller File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/vga_controller.sv Line: 1
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file mouseps2toleds.sv
-    Info (12023): Found entity 1: MousePS2ToLEDs File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/MousePS2ToLEDs.sv Line: 1
+    Info (12023): Found entity 1: MousePS2ToLEDs File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/MousePS2ToLEDs.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file arm.sv
-    Info (12023): Found entity 1: arm File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/arm.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file controller.sv
-    Info (12023): Found entity 1: controller File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/controller.sv Line: 1
+    Info (12023): Found entity 1: arm File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/arm.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file decoder.sv
-    Info (12023): Found entity 1: decoder File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/decoder.sv Line: 1
+    Info (12023): Found entity 1: decoder File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/decoder.sv Line: 1
 Info (12021): Found 2 design units, including 2 entities, in source file condlogic.sv
-    Info (12023): Found entity 1: condlogic File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/condlogic.sv Line: 2
-    Info (12023): Found entity 2: condcheck File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/condlogic.sv Line: 51
+    Info (12023): Found entity 1: condlogic File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/condlogic.sv Line: 2
+    Info (12023): Found entity 2: condcheck File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/condlogic.sv Line: 51
 Info (12021): Found 1 design units, including 1 entities, in source file datapath.sv
-    Info (12023): Found entity 1: datapath File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv Line: 1
+    Info (12023): Found entity 1: datapath File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/datapath.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file adder.sv
-    Info (12023): Found entity 1: adder File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/adder.sv Line: 1
+    Info (12023): Found entity 1: adder File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/adder.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file regfile.sv
-    Info (12023): Found entity 1: regfile File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/regfile.sv Line: 2
+    Info (12023): Found entity 1: regfile File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/regfile.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file mux2.sv
-    Info (12023): Found entity 1: mux2 File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/mux2.sv Line: 2
+    Info (12023): Found entity 1: mux2 File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/mux2.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file extend.sv
-    Info (12023): Found entity 1: extend File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/extend.sv Line: 2
+    Info (12023): Found entity 1: extend File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/extend.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file flopr.sv
-    Info (12023): Found entity 1: flopr File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopr.sv Line: 2
+    Info (12023): Found entity 1: flopr File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/flopr.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file flopenr.sv
-    Info (12023): Found entity 1: flopenr File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopenr.sv Line: 2
+    Info (12023): Found entity 1: flopenr File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/flopenr.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file testbench.sv
-    Info (12023): Found entity 1: testbench File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench.sv Line: 3
+    Info (12023): Found entity 1: testbench File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/testbench.sv Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file top.sv
-    Info (12023): Found entity 1: top File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 3
+    Info (12023): Found entity 1: top File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file rom.v
-    Info (12023): Found entity 1: ROM File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/ROM.v Line: 40
+    Info (12023): Found entity 1: ROM File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/ROM.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file counter.sv
-    Info (12023): Found entity 1: Counter File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/counter.sv Line: 1
+    Info (12023): Found entity 1: Counter File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/counter.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu.sv
-    Info (12023): Found entity 1: alu File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/alu.sv Line: 3
+    Info (12023): Found entity 1: alu File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/alu.sv Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file dmem.sv
-    Info (12023): Found entity 1: dmem File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/dmem.sv Line: 3
+    Info (12023): Found entity 1: dmem File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/dmem.sv Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file imem.sv
-    Info (12023): Found entity 1: imem File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv Line: 3
+    Info (12023): Found entity 1: imem File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/imem.sv Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file ram.v
-    Info (12023): Found entity 1: RAM File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/RAM.v Line: 40
+    Info (12023): Found entity 1: RAM File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/RAM.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file pll.sv
-    Info (12023): Found entity 1: pll File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/pll.sv Line: 5
+    Info (12023): Found entity 1: pll File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/pll.sv Line: 5
+Info (12021): Found 1 design units, including 1 entities, in source file controller.sv
+    Info (12023): Found entity 1: controller File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/controller.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file vgacontroller.sv
-    Info (12023): Found entity 1: vgaController File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/vgaController.sv Line: 7
-Info (12021): Found 1 design units, including 1 entities, in source file conect4_fsm.sv
-    Info (12023): Found entity 1: connect4_fsm File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/conect4_fsm.sv Line: 4
+    Info (12023): Found entity 1: vgaController File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/vgaController.sv Line: 7
 Info (12021): Found 1 design units, including 1 entities, in source file startscreen.sv
-    Info (12023): Found entity 1: startScreen File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 1
+    Info (12023): Found entity 1: startScreen File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/startScreen.sv Line: 1
 Info (12127): Elaborating entity "top" for the top level hierarchy
-Warning (10036): Verilog HDL or VHDL warning at top.sv(35): object "is_game_over_state_active" assigned a value but never read File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 35
-Info (12128): Elaborating entity "pll" for hierarchy "pll:vgapll" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 49
-Info (12128): Elaborating entity "vgaController" for hierarchy "vgaController:vgaCont" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 55
-Info (12128): Elaborating entity "connect4_fsm" for hierarchy "connect4_fsm:fsm" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 65
-Info (10264): Verilog HDL Case Statement information at conect4_fsm.sv(127): all case item expressions in this case statement are onehot File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/conect4_fsm.sv Line: 127
-Info (12128): Elaborating entity "startScreen" for hierarchy "startScreen:initialScreenDrawer" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 76
-Info (12128): Elaborating entity "Counter" for hierarchy "Counter:cycle_counter_inst" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 86
-Info (12128): Elaborating entity "arm" for hierarchy "arm:arm0" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 93
-Info (12128): Elaborating entity "controller" for hierarchy "arm:arm0|controller:c" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/arm.sv Line: 39
-Info (12128): Elaborating entity "decoder" for hierarchy "arm:arm0|controller:c|decoder:dec" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/controller.sv Line: 34
-Info (12128): Elaborating entity "condlogic" for hierarchy "arm:arm0|controller:c|condlogic:cl" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/controller.sv Line: 49
-Info (12128): Elaborating entity "flopenr" for hierarchy "arm:arm0|controller:c|condlogic:cl|flopenr:flagreg1" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/condlogic.sv Line: 27
-Info (12128): Elaborating entity "condcheck" for hierarchy "arm:arm0|controller:c|condlogic:cl|condcheck:cc" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/condlogic.sv Line: 41
-Info (12128): Elaborating entity "datapath" for hierarchy "arm:arm0|datapath:dp" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/arm.sv Line: 58
-Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm0|datapath:dp|mux2:pcmux" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv Line: 39
-Info (12128): Elaborating entity "flopr" for hierarchy "arm:arm0|datapath:dp|flopr:pcreg" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv Line: 40
-Info (12128): Elaborating entity "adder" for hierarchy "arm:arm0|datapath:dp|adder:pcadd1" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv Line: 41
-Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm0|datapath:dp|mux2:ra1mux" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv Line: 45
-Info (12128): Elaborating entity "regfile" for hierarchy "arm:arm0|datapath:dp|regfile:rf" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv Line: 49
-Info (12128): Elaborating entity "extend" for hierarchy "arm:arm0|datapath:dp|extend:ext" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv Line: 55
-Info (12128): Elaborating entity "alu" for hierarchy "arm:arm0|datapath:dp|alu:alu0" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv Line: 59
-Info (12128): Elaborating entity "imem" for hierarchy "imem:imem0" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 99
-Warning (10030): Net "RAM.data_a" at imem.sv(9) has no driver or initial value, using a default initial value '0' File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv Line: 9
-Warning (10030): Net "RAM.waddr_a" at imem.sv(9) has no driver or initial value, using a default initial value '0' File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv Line: 9
-Warning (10030): Net "RAM.we_a" at imem.sv(9) has no driver or initial value, using a default initial value '0' File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv Line: 9
-Info (12128): Elaborating entity "dmem" for hierarchy "dmem:dmem0" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 106
+Info (12128): Elaborating entity "pll" for hierarchy "pll:vgapll" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 39
+Info (12128): Elaborating entity "vgaController" for hierarchy "vgaController:vgaCont" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 46
+Info (12128): Elaborating entity "startScreen" for hierarchy "startScreen:initialScreenDrawer" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 55
+Info (12128): Elaborating entity "Counter" for hierarchy "Counter:cycle_counter_inst" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 70
+Info (12128): Elaborating entity "arm" for hierarchy "arm:arm0" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 82
+Info (12128): Elaborating entity "controller" for hierarchy "arm:arm0|controller:c" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/arm.sv Line: 39
+Info (12128): Elaborating entity "decoder" for hierarchy "arm:arm0|controller:c|decoder:dec" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/controller.sv Line: 34
+Info (12128): Elaborating entity "condlogic" for hierarchy "arm:arm0|controller:c|condlogic:cl" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/controller.sv Line: 49
+Info (12128): Elaborating entity "flopenr" for hierarchy "arm:arm0|controller:c|condlogic:cl|flopenr:flagreg1" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/condlogic.sv Line: 27
+Info (12128): Elaborating entity "condcheck" for hierarchy "arm:arm0|controller:c|condlogic:cl|condcheck:cc" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/condlogic.sv Line: 41
+Info (12128): Elaborating entity "datapath" for hierarchy "arm:arm0|datapath:dp" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/arm.sv Line: 58
+Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm0|datapath:dp|mux2:pcmux" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/datapath.sv Line: 39
+Info (12128): Elaborating entity "flopr" for hierarchy "arm:arm0|datapath:dp|flopr:pcreg" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/datapath.sv Line: 40
+Info (12128): Elaborating entity "adder" for hierarchy "arm:arm0|datapath:dp|adder:pcadd1" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/datapath.sv Line: 41
+Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm0|datapath:dp|mux2:ra1mux" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/datapath.sv Line: 45
+Info (12128): Elaborating entity "regfile" for hierarchy "arm:arm0|datapath:dp|regfile:rf" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/datapath.sv Line: 49
+Info (12128): Elaborating entity "extend" for hierarchy "arm:arm0|datapath:dp|extend:ext" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/datapath.sv Line: 55
+Info (12128): Elaborating entity "alu" for hierarchy "arm:arm0|datapath:dp|alu:alu0" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/datapath.sv Line: 59
+Info (12128): Elaborating entity "imem" for hierarchy "imem:imem0" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 90
+Warning (10030): Net "RAM.data_a" at imem.sv(9) has no driver or initial value, using a default initial value '0' File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/imem.sv Line: 9
+Warning (10030): Net "RAM.waddr_a" at imem.sv(9) has no driver or initial value, using a default initial value '0' File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/imem.sv Line: 9
+Warning (10030): Net "RAM.we_a" at imem.sv(9) has no driver or initial value, using a default initial value '0' File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/imem.sv Line: 9
+Info (12128): Elaborating entity "dmem" for hierarchy "dmem:dmem0" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 103
+Warning (10850): Verilog HDL warning at dmem.sv(20): number of words (64) in memory file does not match the number of elements in the address range [0:1023] File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/dmem.sv Line: 20
 Info (276014): Found 2 instances of uninferred RAM logic
-    Info (276007): RAM logic "dmem:dmem0|RAM" is uninferred due to asynchronous read logic File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/dmem.sv Line: 15
-    Info (276004): RAM logic "imem:imem0|RAM" is uninferred due to inappropriate RAM size File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv Line: 9
-Warning (12241): 2 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+    Info (276007): RAM logic "dmem:dmem0|RAM" is uninferred due to asynchronous read logic File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/dmem.sv Line: 15
+    Info (276004): RAM logic "imem:imem0|RAM" is uninferred due to inappropriate RAM size File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/imem.sv Line: 9
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/db/proyecto_final_taller.ram0_dmem_351e6b.hdl.mif" contains "don't care" values -- overwriting them with 0s
+Warning (12241): 3 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "r[0]" is stuck at GND File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 18
-    Warning (13410): Pin "r[1]" is stuck at GND File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 18
-    Warning (13410): Pin "r[2]" is stuck at GND File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 18
-    Warning (13410): Pin "r[3]" is stuck at GND File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 18
-    Warning (13410): Pin "r[4]" is stuck at GND File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 18
-    Warning (13410): Pin "r[5]" is stuck at GND File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 18
-    Warning (13410): Pin "r[6]" is stuck at GND File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 18
-    Warning (13410): Pin "r[7]" is stuck at GND File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 18
-    Warning (13410): Pin "g[3]" is stuck at VCC File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 19
-    Warning (13410): Pin "g[6]" is stuck at VCC File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 19
-    Warning (13410): Pin "g[7]" is stuck at VCC File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 19
-    Warning (13410): Pin "b[0]" is stuck at GND File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 21
-    Warning (13410): Pin "b[1]" is stuck at GND File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 21
-    Warning (13410): Pin "b[2]" is stuck at GND File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 21
-    Warning (13410): Pin "b[3]" is stuck at GND File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 21
-    Warning (13410): Pin "b[4]" is stuck at GND File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 21
-    Warning (13410): Pin "b[5]" is stuck at GND File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 21
-    Warning (13410): Pin "b[6]" is stuck at GND File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 21
-    Warning (13410): Pin "b[7]" is stuck at GND File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 21
+    Warning (13410): Pin "r[0]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 16
+    Warning (13410): Pin "r[1]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 16
+    Warning (13410): Pin "r[2]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 16
+    Warning (13410): Pin "r[3]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 16
+    Warning (13410): Pin "r[4]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 16
+    Warning (13410): Pin "r[5]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 16
+    Warning (13410): Pin "r[6]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 16
+    Warning (13410): Pin "r[7]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 16
+    Warning (13410): Pin "g[0]" is stuck at VCC File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 17
+    Warning (13410): Pin "g[1]" is stuck at VCC File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 17
+    Warning (13410): Pin "g[2]" is stuck at VCC File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 17
+    Warning (13410): Pin "g[3]" is stuck at VCC File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 17
+    Warning (13410): Pin "g[4]" is stuck at VCC File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 17
+    Warning (13410): Pin "g[5]" is stuck at VCC File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 17
+    Warning (13410): Pin "g[6]" is stuck at VCC File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 17
+    Warning (13410): Pin "g[7]" is stuck at VCC File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 17
+    Warning (13410): Pin "b[0]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 20
+    Warning (13410): Pin "b[1]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 20
+    Warning (13410): Pin "b[2]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 20
+    Warning (13410): Pin "b[3]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 20
+    Warning (13410): Pin "b[4]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 20
+    Warning (13410): Pin "b[5]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 20
+    Warning (13410): Pin "b[6]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 20
+    Warning (13410): Pin "b[7]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 20
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 10 registers lost all their fanouts during netlist optimizations.
-Info (144001): Generated suppressed messages file C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/output_files/proyecto_final_taller.map.smsg
+Info (17049): 1 registers lost all their fanouts during netlist optimizations.
+Info (144001): Generated suppressed messages file C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/output_files/proyecto_final_taller.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 45782 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 45854 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
-    Info (21059): Implemented 38 output pins
-    Info (21061): Implemented 45742 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 25 warnings
-    Info: Peak virtual memory: 5162 megabytes
-    Info: Processing ended: Sun Jun 22 01:59:58 2025
-    Info: Elapsed time: 00:00:48
-    Info: Total CPU time (on all processors): 00:00:57
+    Info (21059): Implemented 94 output pins
+    Info (21061): Implemented 45758 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 32 warnings
+    Info: Peak virtual memory: 5239 megabytes
+    Info: Processing ended: Sun Jun 22 17:43:30 2025
+    Info: Elapsed time: 00:00:43
+    Info: Total CPU time (on all processors): 00:00:50
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/output_files/proyecto_final_taller.map.smsg.
+The suppressed messages can be found in C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/output_files/proyecto_final_taller.map.smsg.
 
 

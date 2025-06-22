@@ -9,7 +9,8 @@ module imem(
     logic [31:0] RAM [0:63];
 
     initial begin
-        $readmemh("C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/ROM.dat", RAM);
+        //$readmemh("C:/Users/Gabriel/Desktop/Proyecto_final_funda/ROM.dat", RAM);
+		  $readmemh("C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/ROM.dat", RAM);
     end
 
     // Lectura combinacional, alineada a palabra
