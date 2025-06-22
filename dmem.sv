@@ -16,7 +16,7 @@ module dmem (
 
     // Inicialización desde fichero (igual que en imem)
     initial begin
-        $readmemh("C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/RAM.dat", RAM);
+        $readmemh("C:/Users/Gabriel/Desktop/Proyecto_final_funda/RAM.dat", RAM);
     end
 
     // Lecturas combinacionales en ambos puertos (alineadas a palabra)

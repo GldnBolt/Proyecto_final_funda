@@ -1,5 +1,5 @@
 Flow report for proyecto_final_taller
-Thu Jun 19 01:39:40 2025
+Sun Jun 22 00:06:04 2025
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +-----------------------------+------------------------------------------------+
-; Flow Status                 ; Successful - Thu Jun 19 01:39:40 2025          ;
+; Flow Status                 ; Successful - Sun Jun 22 00:06:04 2025          ;
 ; Quartus Prime Version       ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name               ; proyecto_final_taller                          ;
 ; Top-level Entity Name       ; top                                            ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+-----------------------+
 ; Option            ; Setting               ;
 +-------------------+-----------------------+
-; Start date & time ; 06/19/2025 01:39:35   ;
+; Start date & time ; 06/22/2025 00:05:50   ;
 ; Main task         ; Compilation           ;
 ; Revision Name     ; proyecto_final_taller ;
 +-------------------+-----------------------+
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+-----------------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value         ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+-----------------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 66504332970042.175031877502132         ; --                    ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 49410870764856.175057235018740         ; --                    ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                    ; --          ; testbench                         ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                    ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                    ; --          ; eda_board_design_boundary_scan    ;
@@ -107,8 +107,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:05     ; 1.0                     ; 4792 MB             ; 00:00:14                           ;
-; Total                  ; 00:00:05     ; --                      ; --                  ; 00:00:14                           ;
+; Analysis & Elaboration ; 00:00:14     ; 1.0                     ; 4783 MB             ; 00:00:13                           ;
+; Total                  ; 00:00:14     ; --                      ; --                  ; 00:00:13                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -117,7 +117,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+------------------+------------+------------+----------------+
 ; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +------------------------+------------------+------------+------------+----------------+
-; Analysis & Elaboration ; BOLT-PC          ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Elaboration ; DESKTOP-ATR57PL  ; Windows 10 ; 10.0       ; x86_64         ;
 +------------------------+------------------+------------+------------+----------------+
 
 
