@@ -1,20 +1,20 @@
-
 module testbench();
-    logic        clk;
-    logic        reset;
-    logic [31:0] WriteData, DataAdr;
-    logic        MemWrite;
 
-    // instantiate device to be tested
-    top dut(
-        .clk      (clk),
-        .reset    (reset),
-        .WriteData(WriteData),
-        .DataAdr  (DataAdr),
-        .MemWrite (MemWrite)
+    logic clk;
+    logic reset;
+
+    // Instancia del módulo top
+    top dut (
+        .clk(clk),
+        .reset(reset)
     );
-	 
-	 // Señal para el contador de ciclos
+
+    // Acceso jerárquico a las señales internas de top
+    wire [31:0] WriteData = dut.WriteData;
+    wire [31:0] DataAdr   = dut.DataAdr;
+    wire        MemWrite  = dut.MemWrite;
+
+     // Señal para el contador de ciclos
     logic [7:0] cycle_counter;
 
     // Instanciación del contador de ciclos
@@ -39,20 +39,20 @@ module testbench();
         clk <= 0; 
         #5;
     end
-		
-		// Verifica que la simulación termine al llegar al ciclo 255
+
+        // Verifica que la simulación termine al llegar al ciclo 255
     always @(posedge clk or posedge reset) begin
         if (reset) begin
             $display("Reset active. Counter reset to 0");
         end else if (cycle_counter == 24) begin
             $display("Simulation finished after 24 cycles.");
-            $stop;  
+            $stop;
         end
     end
-	 
+
     // check that 7 gets written to address 0x64 at end of program
     always @(negedge clk) begin
-		  $display("DataAdr: %d, WriteData: %d", DataAdr, WriteData);
+          $display("DataAdr: %d, WriteData: %d", DataAdr, WriteData);
         if (MemWrite) begin
             if (DataAdr === 100 && WriteData === 10) begin
                 $display("Simulation succeeded");

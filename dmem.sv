@@ -1,4 +1,3 @@
-
 module dmem (
     input  logic        clk,      // reloj
     input  logic        we,       // habilitación de escritura (puerto 0)
@@ -10,14 +9,13 @@ module dmem (
     output logic [31:0] rd1       // dato de lectura (puerto 1)
 );
 
-    // Banco de 64 palabras de 32 bits
-    logic [31:0] RAM [0:255];
+    // Banco de 255 palabras de 32 bits
+    logic [31:0] RAM [0:1023];
 
     // Inicialización desde fichero (igual que en imem)
     initial begin
         //$readmemh("C:/Users/Gabriel/Desktop/Proyecto_final_funda/RAM.dat", RAM);
-		  $readmemh("C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/RAM.dat", RAM);
-
+		  $readmemh("C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/RAM.dat", RAM);
     end
 
     // Lecturas combinacionales en ambos puertos (alineadas a palabra)
