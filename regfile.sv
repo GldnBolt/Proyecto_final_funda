@@ -1,29 +1,20 @@
-// HDL Example 7.8 REGISTER FILE
 module regfile(
     input  logic        clk,
-    input  logic        we3,       // write enable
-    input  logic [3:0]  ra1,       // read address 1
-    input  logic [3:0]  ra2,       // read address 2
-    input  logic [3:0]  wa3,       // write address
-    input  logic [31:0] wd3,       // write data
-    input  logic [31:0] wd4,       // link data (for PC+8)
-    output logic [31:0] rd1,       // read data 1
-    output logic [31:0] rd2        // read data 2
+    input  logic        we3,
+    input  logic [3:0]  ra1, ra2, wa3,
+    input  logic [31:0] wd3,
+    input  logic [31:0] r15,              
+    output logic [31:0] rd1, rd2
 );
 
-    logic [31:0] regs [0:15];
+    logic [31:0] regs[14:0];
 
-    // two asynchronous reads
-    assign rd1 = regs[ra1];
-    assign rd2 = regs[ra2];
-
-    // synchronous write (writes on rising edge)
-    always_ff @(posedge clk) begin
-        if (we3) begin
+    always_ff @(posedge clk)
+        if (we3 && wa3 != 4'd15)
             regs[wa3] <= wd3;
-        end
-        // write link register (R15) separately
-        regs[4'hF] <= wd4;
-    end
+
+    // Lógica para lectura
+    assign rd1 = (ra1 == 4'd15) ? r15 : regs[ra1];
+    assign rd2 = (ra2 == 4'd15) ? r15 : regs[ra2];
 
 endmodule

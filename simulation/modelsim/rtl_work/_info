@@ -8,553 +8,553 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/simulation/modelsim
+Z0 dC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/simulation/modelsim
 vadder
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1750717886
+Z2 !s110 1750719707
 !i10b 1
 !s100 5RWo<zYeN5=XjXjTia>8>0
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-ICNXb0OkDKOW8cRMUZQ^fL0
+IkC=Rod5iNR_H87mW@c]6b0
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1750144219
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/adder.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/adder.sv
+Z5 w1750718888
+8C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/adder.sv
+FC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/adder.sv
 !i122 4
 L0 1 9
-Z5 OV;L;2020.1;71
+Z6 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1750717886.000000
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/adder.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/adder.sv|
+Z7 !s108 1750719707.000000
+!s107 C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda|C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/adder.sv|
 !i113 1
-Z7 o-sv -work work
-Z8 !s92 -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda
-Z9 tCvgOpt 0
+Z8 o-sv -work work
+Z9 !s92 -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda
+Z10 tCvgOpt 0
 valu
 R1
-R2
+Z11 !s110 1750719708
 !i10b 1
 !s100 5`fTb`T[^7oB6zFK[:bZZ2
 R3
-IIk7HOR3VGl1[WRU<KGl0a3
+II5;@>[oZQgMj4T605o]DD0
 R4
 S1
 R0
-w1750711577
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/alu.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/alu.sv
+R5
+8C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/alu.sv
+FC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/alu.sv
 !i122 12
 L0 2 46
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/alu.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/alu.sv|
+Z12 !s108 1750719708.000000
+!s107 C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda|C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/alu.sv|
 !i113 1
-R7
 R8
 R9
+R10
 varm
 R1
-Z10 !s110 1750717885
+R2
 !i10b 1
 !s100 5e`4>iQ=U>TShF[8SZ<9g1
 R3
-IS?U;HVkn0D_]hH<<fVLU43
+I6CiOo64H@l:C3Y7R_ek002
 R4
 S1
 R0
-w1750313998
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/arm.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/arm.sv
-!i122 0
-Z11 L0 1 60
 R5
+8C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/arm.sv
+FC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/arm.sv
+!i122 0
+Z13 L0 1 60
+R6
 r1
 !s85 0
 31
-Z12 !s108 1750717885.000000
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/arm.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/arm.sv|
-!i113 1
 R7
+!s107 C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/arm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda|C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/arm.sv|
+!i113 1
 R8
 R9
+R10
 vcondcheck
 R1
 R2
 !i10b 1
 !s100 ?@mTa31hSQgS=3k1X]G;m0
 R3
-IF`a4A9iQ`3_QzJTlGAJ]o3
+ID3zA7]BA>nMb2OW@Qj1DC3
 R4
 S1
 R0
-Z13 w1750056078
-Z14 8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/condlogic.sv
-Z15 FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/condlogic.sv
+R5
+Z14 8C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/condlogic.sv
+Z15 FC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/condlogic.sv
 !i122 2
 L0 51 32
-R5
+R6
 r1
 !s85 0
 31
-R12
-Z16 !s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/condlogic.sv|
-Z17 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/condlogic.sv|
-!i113 1
 R7
+Z16 !s107 C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/condlogic.sv|
+Z17 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda|C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/condlogic.sv|
+!i113 1
 R8
 R9
+R10
 vcondlogic
 R1
-R10
+R2
 !i10b 1
 !s100 n19l=e9_9DI:W4i_RfM3m1
 R3
-Ic]:g[NibR^b64O;=dcGZ92
+IjM;ng_M=6[=MH<2fz@0LJ0
 R4
 S1
 R0
-R13
+R5
 R14
 R15
 !i122 2
 L0 2 47
+R6
+r1
+!s85 0
+31
+R7
+R16
+R17
+!i113 1
+R8
+R9
+R10
+vcontroller
+R1
+R11
+!i10b 1
+!s100 JJgBZe;02A9zl><;[RdhG1
+R3
+I6IbNYh05R_A6k?hgzGWXh3
+R4
+S1
+R0
 R5
+8C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/controller.sv
+FC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/controller.sv
+!i122 14
+L0 1 51
+R6
 r1
 !s85 0
 31
 R12
-R16
-R17
+!s107 C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda|C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/controller.sv|
 !i113 1
-R7
 R8
 R9
-vcontroller
-R1
-R2
-!i10b 1
-!s100 JJgBZe;02A9zl><;[RdhG1
-R3
-IW3l1L=YVXY;c57n5dQ[?E0
-R4
-S1
-R0
-w1750711386
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/controller.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/controller.sv
-!i122 14
-L0 1 51
-R5
-r1
-!s85 0
-31
-R6
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/controller.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/controller.sv|
-!i113 1
-R7
-R8
-R9
+R10
 vCounter
 R1
-R2
+R11
 !i10b 1
 !s100 H`dS@X]iZkBGkCzAN952h0
 R3
-I?^G;TBdzl:EPHL5_UhH::0
+Iehl<2jg1S=G=Uf4;mVORz3
 R4
 S1
 R0
-w1750142031
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/counter.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/counter.sv
+R5
+8C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/counter.sv
+FC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/counter.sv
 !i122 11
 L0 1 16
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/counter.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/counter.sv|
+R12
+!s107 C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/counter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda|C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/counter.sv|
 !i113 1
-R7
 R8
 R9
+R10
 n@counter
 vdatapath
 R1
 R2
 !i10b 1
-!s100 o;_hVC_:^9bemR?]To5e52
+!s100 XzaaY8U]GTnl255X>[bS02
 R3
-I@acfNRI>AS1NiA0aR;G2Z3
+IBHF:^I;SN9Y@MFQJY3Y3b1
 R4
 S1
 R0
-w1750153828
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv
+w1750719665
+8C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/datapath.sv
+FC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/datapath.sv
 !i122 3
-L0 1 61
-R5
+L0 1 73
+R6
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv|
-!i113 1
 R7
+!s107 C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda|C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/datapath.sv|
+!i113 1
 R8
 R9
+R10
 vdecoder
 R1
-R10
+R2
 !i10b 1
 !s100 LgUYM3P];VT?Umn3X];LI0
 R3
-IzD@?OaC_?<9VV@=j;6VD=1
+Ik:T1hT>PRT^LHJ8<X<8^52
 R4
 S1
 R0
-w1750055935
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/decoder.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/decoder.sv
+Z18 w1750718889
+8C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/decoder.sv
+FC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/decoder.sv
 !i122 1
+R13
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda|C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/decoder.sv|
+!i113 1
+R8
+R9
+R10
+vdmem
+R1
+Z19 !s110 1750719709
+!i10b 1
+!s100 oB]b9C9HFGYmf2^KnmK=`2
+R3
+IN<PSMjGRQlf]KM^9jdK:R2
+R4
+S1
+R0
+w1750719028
+8C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/dmem.sv
+FC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/dmem.sv
+!i122 17
+L0 1 31
+R6
+r1
+!s85 0
+31
+Z20 !s108 1750719709.000000
+!s107 C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/dmem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda|C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/dmem.sv|
+!i113 1
+R8
+R9
+R10
+vextend
+R1
 R11
-R5
+!i10b 1
+!s100 XLX;Dl0=Zbmk]FWI4jQgB0
+R3
+IH>h@Lh3`W12;XA1V<?@ZV0
+R4
+S1
+R0
+R18
+8C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/extend.sv
+FC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/extend.sv
+!i122 7
+L0 2 18
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/extend.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda|C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/extend.sv|
+!i113 1
+R8
+R9
+R10
+vflopenr
+R1
+R11
+!i10b 1
+!s100 iOXbKHA1mE]H4o]?cZJ8H2
+R3
+IzjD2Qb8z7jI@1HlK`Ki<J0
+R4
+S1
+R0
+R18
+8C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/flopenr.sv
+FC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/flopenr.sv
+!i122 9
+L0 2 17
+R6
 r1
 !s85 0
 31
 R12
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/decoder.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/decoder.sv|
+!s107 C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/flopenr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda|C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/flopenr.sv|
 !i113 1
-R7
 R8
 R9
-vdmem
-R1
-Z18 !s110 1750717887
-!i10b 1
-!s100 _l?Ba25:DDU`^ZRzU9U<?0
-R3
-IPeIPjG4zk`o32?BV6E8UU3
-R4
-S1
-R0
-Z19 w1750716498
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/dmem.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/dmem.sv
-!i122 17
-L0 1 31
-R5
-r1
-!s85 0
-31
-Z20 !s108 1750717887.000000
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/dmem.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/dmem.sv|
-!i113 1
-R7
-R8
-R9
-vextend
-R1
-R2
-!i10b 1
-!s100 XLX;Dl0=Zbmk]FWI4jQgB0
-R3
-IR?D2lOzSc6[K5O`1mBNgI0
-R4
-S1
-R0
-w1750056528
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/extend.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/extend.sv
-!i122 7
-L0 2 18
-R5
-r1
-!s85 0
-31
-R6
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/extend.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/extend.sv|
-!i113 1
-R7
-R8
-R9
-vflopenr
-R1
-R2
-!i10b 1
-!s100 iOXbKHA1mE]H4o]?cZJ8H2
-R3
-INiEB>ne2bn^SX>U[GODX`0
-R4
-S1
-R0
-w1750056685
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopenr.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopenr.sv
-!i122 9
-L0 2 17
-R5
-r1
-!s85 0
-31
-R6
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopenr.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopenr.sv|
-!i113 1
-R7
-R8
-R9
+R10
 vflopr
 R1
-R2
+R11
 !i10b 1
 !s100 kkWWGGkPSnC8QLnF=N:ND2
 R3
-I=47HYX]DL`fz0gFJ?T]og0
+IPY53E3WPlzASbUeBCFn]<1
 R4
 S1
 R0
-w1750056568
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopr.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopr.sv
+R18
+8C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/flopr.sv
+FC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/flopr.sv
 !i122 8
 L0 2 16
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopr.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopr.sv|
+R12
+!s107 C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/flopr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda|C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/flopr.sv|
 !i113 1
-R7
 R8
 R9
+R10
 vimem
 R1
-R18
+R19
 !i10b 1
-!s100 i;j`3>0`>VMMQ?4O^ZK910
+!s100 P;4mmBl^ohEDUFUJ0V`d_0
 R3
-I_>LmZbZ9^S?]FdGkU0[=Q2
+IgY5TfSnIIPjLOfXzS4jAP2
 R4
 S1
 R0
-R19
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv
+w1750719036
+8C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/imem.sv
+FC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/imem.sv
 !i122 18
 L0 2 19
-R5
+R6
 r1
 !s85 0
 31
 R20
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv|
+!s107 C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/imem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda|C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/imem.sv|
 !i113 1
-R7
 R8
 R9
+R10
 vmux2
 R1
 R2
 !i10b 1
 !s100 6zN[Uom>nP:33>HaM7YT02
 R3
-I`h@=jV4[A@gC9^T:Q3ZLa2
+IG=;g0ZI^J8g5IAR613=7i0
 R4
 S1
 R0
-w1750318443
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/mux2.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/mux2.sv
+R18
+8C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/mux2.sv
+FC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/mux2.sv
 !i122 6
 L0 2 10
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/mux2.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/mux2.sv|
-!i113 1
 R7
+!s107 C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/mux2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda|C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/mux2.sv|
+!i113 1
 R8
 R9
+R10
 vpll
 R1
-R2
+R11
 !i10b 1
 !s100 oeb4_01Pm8QR1FQIi>_Gh0
 R3
-I3>Q=2Q_9[W_`GlG8R=Azb3
+IYIBIaj]LWnD9lZZi<NC7K1
 R4
 S1
 R0
-Z21 w1750573111
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/pll.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/pll.sv
+R18
+8C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/pll.sv
+FC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/pll.sv
 !i122 13
 L0 5 17
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/pll.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/pll.sv|
+R12
+!s107 C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/pll.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda|C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/pll.sv|
 !i113 1
-R7
 R8
 R9
+R10
 vregfile
 R1
 R2
 !i10b 1
-!s100 LL5g1J2N0=IBXQLkOoQbe1
+!s100 5Dc;TGF5:2[am7h258n[n2
 R3
-I5C;>fVViFei`9=2F:^G8V0
+I<jzzV57aokM3g00@akzmK3
 R4
 S1
 R0
-w1750155032
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/regfile.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/regfile.sv
+w1750719661
+8C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/regfile.sv
+FC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/regfile.sv
 !i122 5
-L0 2 28
-R5
+L0 1 20
+R6
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/regfile.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/regfile.sv|
-!i113 1
 R7
+!s107 C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/regfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda|C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/regfile.sv|
+!i113 1
 R8
 R9
+R10
 vstartScreen
 R1
-R18
+R19
 !i10b 1
 !s100 HefmKMWj7bjze3KeI]2Ae2
 R3
-I?JiN_08X_IXLmIiG:2laD1
+Iba8S3ge<k2H9<hIR0me@R2
 R4
 S1
 R0
-w1750713175
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv
+Z21 w1750718890
+8C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv
+FC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv
 !i122 16
 L0 1 64
-R5
+R6
 r1
 !s85 0
 31
 R20
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv|
+!s107 C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda|C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv|
 !i113 1
-R7
 R8
 R9
+R10
 nstart@screen
 vtestbench
 R1
-R18
+R19
 !i10b 1
 !s100 BF4A3]T?fHgYgVMA]R<`81
 R3
-Ifh2@QzJbkK4<3QImIh[1l0
-R4
-S1
-R0
-w1750717501
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench.sv
-!i122 19
-L0 1 67
-R5
-r1
-!s85 0
-31
-R20
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench.sv|
-!i113 1
-R7
-R8
-R9
-vtop
-R1
-R2
-!i10b 1
-!s100 _;<M@TGX<LfAZh;[ib6^23
-R3
-IOozdK<<8[HNGMK604b@Nh0
-R4
-S1
-R0
-w1750717754
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv
-!i122 10
-L0 1 79
-R5
-r1
-!s85 0
-31
-R6
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv|
-!i113 1
-R7
-R8
-R9
-vvgaController
-R1
-R18
-!i10b 1
-!s100 f_Z2WI`Pg4AbC3>Bc_3HW0
-R3
-InFT]g@oQAkTWjQ:JU:7`X2
+IX8aK[d9=J1>Ho8?mH?L_f3
 R4
 S1
 R0
 R21
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/vgaController.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/vgaController.sv
-!i122 15
-L0 7 39
-R5
+8C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/testbench.sv
+FC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/testbench.sv
+!i122 19
+L0 1 67
+R6
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/vgaController.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/vgaController.sv|
+R20
+!s107 C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda|C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/testbench.sv|
 !i113 1
-R7
 R8
 R9
+R10
+vtop
+R1
+R11
+!i10b 1
+!s100 _;<M@TGX<LfAZh;[ib6^23
+R3
+I:g6nY7J]L3G:E:zfRGWWR3
+R4
+S1
+R0
+R21
+8C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv
+FC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv
+!i122 10
+L0 1 79
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda|C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv|
+!i113 1
+R8
+R9
+R10
+vvgaController
+R1
+R11
+!i10b 1
+!s100 f_Z2WI`Pg4AbC3>Bc_3HW0
+R3
+ISj8C9CHULNThNEO^V>:2H3
+R4
+S1
+R0
+R21
+8C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/vgaController.sv
+FC:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/vgaController.sv
+!i122 15
+L0 7 39
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/vgaController.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda|C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/vgaController.sv|
+!i113 1
+R8
+R9
+R10
 nvga@controller
