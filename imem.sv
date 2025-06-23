@@ -1,4 +1,3 @@
-`timescale 1ns/1ps
 
 module imem(
     input  logic [31:0] a,    // dirección de 32 bits (byte-address)
@@ -10,7 +9,7 @@ module imem(
 
     initial begin
         //$readmemh("C:/Users/Gabriel/Desktop/Proyecto_final_funda/ROM.dat", RAM);
-		  $readmemh("C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/ROM.dat", RAM);
+		  $readmemh("C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/ROM.dat", RAM);
     end
 
     // Lectura combinacional, alineada a palabra

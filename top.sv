@@ -1,5 +1,3 @@
-`timescale 1ns/1ps
-
 module top(
     input  logic        clk,
     input  logic        reset,
@@ -61,14 +59,6 @@ module top(
     assign b = start_b ;
 
 
-    // Instanciación del contador de ciclos (Counter)
-    Counter #(8) cycle_counter_inst (
-        .clk(clk),
-        .rst(reset),
-        .en(1'b1),  // Siempre habilitado para contar ciclos
-        .Q(cycle_counter)  // El valor del contador se conecta a cycle_counter
-    );
-
     // Instancia del procesador
     arm arm0 (
         .clk       (clk),
@@ -84,7 +74,7 @@ module top(
     // Memoria de instrucciones (imem.sv)
     // Asegúrate de que en imem.sv tengas:
     //   initial $readmemh("ROM.dat", RAM);
-    imem imem0 (
+	     imem imem0 (
         .a  (PC),    // byte-address de instrucción
         .rd (Instr)  // instrucción de 32 bits
     );
@@ -102,15 +92,5 @@ module top(
         .rd1    ()            // puerto 1 sólo lectura: salida no conectada
     );
 
-
-    // Puedes usar el contador de ciclos para depuración o como señal de control en tu diseño
-    // Ejemplo: puedes mostrar el valor de `cycle_counter` en la simulación con un display
-    always @(posedge clk or posedge reset) begin
-        if (reset) begin
-            $display("Counter reset to 0");
-        end else begin
-            $display("Cycle Counter: %d", cycle_counter);
-        end
-    end
 
 endmodule

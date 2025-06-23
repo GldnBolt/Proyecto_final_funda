@@ -1,5 +1,5 @@
-Analysis & Synthesis report for proyecto_final_taller
-Sun Jun 22 17:43:30 2025
+Analysis & Elaboration report for proyecto_final_taller
+Sun Jun 22 20:22:21 2025
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -7,43 +7,33 @@ Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. Analysis & Synthesis Summary
-  3. Analysis & Synthesis Settings
-  4. Parallel Compilation
-  5. Analysis & Synthesis Source Files Read
-  6. Analysis & Synthesis Resource Usage Summary
-  7. Analysis & Synthesis Resource Utilization by Entity
-  8. Registers Removed During Synthesis
-  9. General Register Statistics
- 10. Multiplexer Restructuring Statistics (Restructuring Performed)
- 11. Parameter Settings for User Entity Instance: vgaController:vgaCont
- 12. Parameter Settings for User Entity Instance: Counter:cycle_counter_inst
- 13. Parameter Settings for User Entity Instance: arm:arm0|Counter:cycle_counter_inst
- 14. Parameter Settings for User Entity Instance: arm:arm0|controller:c|condlogic:cl|flopenr:flagreg1
- 15. Parameter Settings for User Entity Instance: arm:arm0|controller:c|condlogic:cl|flopenr:flagreg0
- 16. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|Counter:cycle_counter_inst
- 17. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|mux2:pcmux
- 18. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|flopr:pcreg
- 19. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|adder:pcadd1
- 20. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|adder:pcadd2
- 21. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|mux2:ra1mux
- 22. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|mux2:ra2mux
- 23. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|mux2:resmux
- 24. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|mux2:srcbmux
- 25. Port Connectivity Checks: "dmem:dmem0"
- 26. Port Connectivity Checks: "arm:arm0|datapath:dp|mux2:ra1mux"
- 27. Port Connectivity Checks: "arm:arm0|datapath:dp|adder:pcadd2"
- 28. Port Connectivity Checks: "arm:arm0|datapath:dp|adder:pcadd1"
- 29. Port Connectivity Checks: "arm:arm0|datapath:dp|Counter:cycle_counter_inst"
- 30. Port Connectivity Checks: "arm:arm0|datapath:dp"
- 31. Port Connectivity Checks: "arm:arm0|Counter:cycle_counter_inst"
- 32. Port Connectivity Checks: "arm:arm0"
- 33. Port Connectivity Checks: "Counter:cycle_counter_inst"
- 34. Port Connectivity Checks: "startScreen:initialScreenDrawer"
- 35. Post-Synthesis Netlist Statistics for Top Partition
- 36. Elapsed Time Per Partition
- 37. Analysis & Synthesis Messages
- 38. Analysis & Synthesis Suppressed Messages
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Parameter Settings for User Entity Instance: vgaController:vgaCont
+  5. Parameter Settings for User Entity Instance: arm:arm0|Counter:cycle_counter_inst
+  6. Parameter Settings for User Entity Instance: arm:arm0|controller:c|condlogic:cl|flopenr:flagreg1
+  7. Parameter Settings for User Entity Instance: arm:arm0|controller:c|condlogic:cl|flopenr:flagreg0
+  8. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|Counter:cycle_counter_inst
+  9. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|mux2:pcmux
+ 10. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|flopr:pcreg
+ 11. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|adder:pcadd1
+ 12. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|adder:pcadd2
+ 13. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|mux2:ra1mux
+ 14. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|mux2:ra2mux
+ 15. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|mux2:resmux
+ 16. Parameter Settings for User Entity Instance: arm:arm0|datapath:dp|mux2:srcbmux
+ 17. Analysis & Elaboration Settings
+ 18. Port Connectivity Checks: "dmem:dmem0"
+ 19. Port Connectivity Checks: "arm:arm0|datapath:dp|mux2:ra1mux"
+ 20. Port Connectivity Checks: "arm:arm0|datapath:dp|adder:pcadd2"
+ 21. Port Connectivity Checks: "arm:arm0|datapath:dp|adder:pcadd1"
+ 22. Port Connectivity Checks: "arm:arm0|datapath:dp|Counter:cycle_counter_inst"
+ 23. Port Connectivity Checks: "arm:arm0|datapath:dp"
+ 24. Port Connectivity Checks: "arm:arm0|Counter:cycle_counter_inst"
+ 25. Port Connectivity Checks: "arm:arm0"
+ 26. Port Connectivity Checks: "startScreen:initialScreenDrawer"
+ 27. Analysis & Elaboration Messages
+ 28. Analysis & Elaboration Suppressed Messages
 
 
 
@@ -67,114 +57,22 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+----------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                     ;
-+---------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Jun 22 17:43:29 2025          ;
-; Quartus Prime Version           ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
-; Revision Name                   ; proyecto_final_taller                          ;
-; Top-level Entity Name           ; top                                            ;
-; Family                          ; Cyclone V                                      ;
-; Logic utilization (in ALMs)     ; N/A                                            ;
-; Total registers                 ; 33080                                          ;
-; Total pins                      ; 96                                             ;
-; Total virtual pins              ; 0                                              ;
-; Total block memory bits         ; 0                                              ;
-; Total DSP Blocks                ; 0                                              ;
-; Total HSSI RX PCSs              ; 0                                              ;
-; Total HSSI PMA RX Deserializers ; 0                                              ;
-; Total HSSI TX PCSs              ; 0                                              ;
-; Total HSSI PMA TX Serializers   ; 0                                              ;
-; Total PLLs                      ; 0                                              ;
-; Total DLLs                      ; 0                                              ;
-+---------------------------------+------------------------------------------------+
-
-
-+------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Settings                                                                                                ;
-+---------------------------------------------------------------------------------+--------------------+-----------------------+
-; Option                                                                          ; Setting            ; Default Value         ;
-+---------------------------------------------------------------------------------+--------------------+-----------------------+
-; Device                                                                          ; 5CSXFC6D6F31C6     ;                       ;
-; Top-level entity name                                                           ; top                ; proyecto_final_taller ;
-; Family name                                                                     ; Cyclone V          ; Cyclone V             ;
-; Use smart compilation                                                           ; Off                ; Off                   ;
-; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                    ;
-; Enable compact report table                                                     ; Off                ; Off                   ;
-; Restructure Multiplexers                                                        ; Auto               ; Auto                  ;
-; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                   ;
-; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                   ;
-; Preserve fewer node names                                                       ; On                 ; On                    ;
-; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable                ;
-; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001          ;
-; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993             ;
-; State Machine Processing                                                        ; Auto               ; Auto                  ;
-; Safe State Machine                                                              ; Off                ; Off                   ;
-; Extract Verilog State Machines                                                  ; On                 ; On                    ;
-; Extract VHDL State Machines                                                     ; On                 ; On                    ;
-; Ignore Verilog initial constructs                                               ; Off                ; Off                   ;
-; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000                  ;
-; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                   ;
-; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                    ;
-; Infer RAMs from Raw Logic                                                       ; On                 ; On                    ;
-; Parallel Synthesis                                                              ; On                 ; On                    ;
-; DSP Block Balancing                                                             ; Auto               ; Auto                  ;
-; NOT Gate Push-Back                                                              ; On                 ; On                    ;
-; Power-Up Don't Care                                                             ; On                 ; On                    ;
-; Remove Redundant Logic Cells                                                    ; Off                ; Off                   ;
-; Remove Duplicate Registers                                                      ; On                 ; On                    ;
-; Ignore CARRY Buffers                                                            ; Off                ; Off                   ;
-; Ignore CASCADE Buffers                                                          ; Off                ; Off                   ;
-; Ignore GLOBAL Buffers                                                           ; Off                ; Off                   ;
-; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                   ;
-; Ignore LCELL Buffers                                                            ; Off                ; Off                   ;
-; Ignore SOFT Buffers                                                             ; On                 ; On                    ;
-; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                   ;
-; Optimization Technique                                                          ; Balanced           ; Balanced              ;
-; Carry Chain Length                                                              ; 70                 ; 70                    ;
-; Auto Carry Chains                                                               ; On                 ; On                    ;
-; Auto Open-Drain Pins                                                            ; On                 ; On                    ;
-; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                   ;
-; Auto ROM Replacement                                                            ; On                 ; On                    ;
-; Auto RAM Replacement                                                            ; On                 ; On                    ;
-; Auto DSP Block Replacement                                                      ; On                 ; On                    ;
-; Auto Shift Register Replacement                                                 ; Auto               ; Auto                  ;
-; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto                  ;
-; Auto Clock Enable Replacement                                                   ; On                 ; On                    ;
-; Strict RAM Replacement                                                          ; Off                ; Off                   ;
-; Allow Synchronous Control Signals                                               ; On                 ; On                    ;
-; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                   ;
-; Auto Resource Sharing                                                           ; Off                ; Off                   ;
-; Allow Any RAM Size For Recognition                                              ; Off                ; Off                   ;
-; Allow Any ROM Size For Recognition                                              ; Off                ; Off                   ;
-; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                   ;
-; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                    ;
-; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                   ;
-; Timing-Driven Synthesis                                                         ; On                 ; On                    ;
-; Report Parameter Settings                                                       ; On                 ; On                    ;
-; Report Source Assignments                                                       ; On                 ; On                    ;
-; Report Connectivity Checks                                                      ; On                 ; On                    ;
-; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                   ;
-; Synchronization Register Chain Length                                           ; 3                  ; 3                     ;
-; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation    ;
-; HDL message level                                                               ; Level2             ; Level2                ;
-; Suppress Register Optimization Related Messages                                 ; Off                ; Off                   ;
-; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000                  ;
-; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000                  ;
-; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                   ;
-; Clock MUX Protection                                                            ; On                 ; On                    ;
-; Auto Gated Clock Conversion                                                     ; Off                ; Off                   ;
-; Block Design Naming                                                             ; Auto               ; Auto                  ;
-; SDC constraint protection                                                       ; Off                ; Off                   ;
-; Synthesis Effort                                                                ; Auto               ; Auto                  ;
-; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                    ;
-; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                   ;
-; Analysis & Synthesis Message Level                                              ; Medium             ; Medium                ;
-; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto                  ;
-; Resource Aware Inference For Block RAM                                          ; On                 ; On                    ;
-; Automatic Parallel Synthesis                                                    ; On                 ; On                    ;
-; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                   ;
-+---------------------------------------------------------------------------------+--------------------+-----------------------+
++--------------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                                 ;
++-------------------------------+------------------------------------------------+
+; Analysis & Elaboration Status ; Successful - Sun Jun 22 20:22:21 2025          ;
+; Quartus Prime Version         ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
+; Revision Name                 ; proyecto_final_taller                          ;
+; Top-level Entity Name         ; top                                            ;
+; Family                        ; Cyclone V                                      ;
+; Logic utilization (in ALMs)   ; N/A until Partition Merge                      ;
+; Total registers               ; N/A until Partition Merge                      ;
+; Total pins                    ; N/A until Partition Merge                      ;
+; Total virtual pins            ; N/A until Partition Merge                      ;
+; Total block memory bits       ; N/A until Partition Merge                      ;
+; Total PLLs                    ; N/A until Partition Merge                      ;
+; Total DLLs                    ; N/A until Partition Merge                      ;
++-------------------------------+------------------------------------------------+
 
 
 +------------------------------------------+
@@ -185,402 +83,12 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 16          ;
 ; Maximum allowed            ; 16          ;
 ;                            ;             ;
-; Average used               ; 1.02        ;
-; Maximum used               ; 16          ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.2%      ;
-;     Processor 3            ;   0.2%      ;
-;     Processor 4            ;   0.2%      ;
-;     Processor 5            ;   0.2%      ;
-;     Processor 6            ;   0.2%      ;
-;     Processor 7            ;   0.1%      ;
-;     Processor 8            ;   0.1%      ;
-;     Processors 9-16        ;   0.1%      ;
 +----------------------------+-------------+
-
-
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                              ;
-+----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                                          ; Library ;
-+----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
-; arm.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/arm.sv           ;         ;
-; decoder.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/decoder.sv       ;         ;
-; condlogic.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/condlogic.sv     ;         ;
-; datapath.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/datapath.sv      ;         ;
-; adder.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/adder.sv         ;         ;
-; regfile.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/regfile.sv       ;         ;
-; mux2.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/mux2.sv          ;         ;
-; extend.sv                        ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/extend.sv        ;         ;
-; flopr.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/flopr.sv         ;         ;
-; flopenr.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/flopenr.sv       ;         ;
-; top.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv           ;         ;
-; counter.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/counter.sv       ;         ;
-; alu.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/alu.sv           ;         ;
-; dmem.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/dmem.sv          ;         ;
-; imem.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/imem.sv          ;         ;
-; ROM.dat                          ; yes             ; User Unspecified File        ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/ROM.dat          ;         ;
-; pll.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/pll.sv           ;         ;
-; controller.sv                    ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/controller.sv    ;         ;
-; vgaController.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/vgaController.sv ;         ;
-; startScreen.sv                   ; yes             ; User SystemVerilog HDL File  ; C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/startScreen.sv   ;         ;
-+----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
-
-
-+---------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary             ;
-+---------------------------------------------+-----------+
-; Resource                                    ; Usage     ;
-+---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 22393     ;
-;                                             ;           ;
-; Combinational ALUT usage for logic          ; 12923     ;
-;     -- 7 input functions                    ; 2         ;
-;     -- 6 input functions                    ; 11071     ;
-;     -- 5 input functions                    ; 236       ;
-;     -- 4 input functions                    ; 183       ;
-;     -- <=3 input functions                  ; 1431      ;
-;                                             ;           ;
-; Dedicated logic registers                   ; 33080     ;
-;                                             ;           ;
-; I/O pins                                    ; 96        ;
-;                                             ;           ;
-; Total DSP Blocks                            ; 0         ;
-;                                             ;           ;
-; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 33060     ;
-; Total fan-out                               ; 171624    ;
-; Average fan-out                             ; 3.72      ;
-+---------------------------------------------+-----------+
-
-
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                               ;
-+--------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------+---------------+--------------+
-; Compilation Hierarchy Node     ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                      ; Entity Name   ; Library Name ;
-+--------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------+---------------+--------------+
-; |top                           ; 12923 (0)           ; 33080 (0)                 ; 0                 ; 0          ; 96   ; 0            ; |top                                                     ; top           ; work         ;
-;    |arm:arm0|                  ; 644 (0)             ; 291 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0                                            ; arm           ; work         ;
-;       |controller:c|           ; 19 (0)              ; 3 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|controller:c                               ; controller    ; work         ;
-;          |condlogic:cl|        ; 10 (4)              ; 3 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|controller:c|condlogic:cl                  ; condlogic     ; work         ;
-;             |condcheck:cc|     ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|controller:c|condlogic:cl|condcheck:cc     ; condcheck     ; work         ;
-;             |flopenr:flagreg0| ; 2 (2)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|controller:c|condlogic:cl|flopenr:flagreg0 ; flopenr       ; work         ;
-;             |flopenr:flagreg1| ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|controller:c|condlogic:cl|flopenr:flagreg1 ; flopenr       ; work         ;
-;          |decoder:dec|         ; 9 (9)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|controller:c|decoder:dec                   ; decoder       ; work         ;
-;       |datapath:dp|            ; 625 (0)             ; 288 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp                                ; datapath      ; work         ;
-;          |adder:pcadd1|        ; 30 (30)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|adder:pcadd1                   ; adder         ; work         ;
-;          |adder:pcadd2|        ; 30 (30)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|adder:pcadd2                   ; adder         ; work         ;
-;          |alu:alu0|            ; 134 (134)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|alu:alu0                       ; alu           ; work         ;
-;          |extend:ext|          ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|extend:ext                     ; extend        ; work         ;
-;          |flopr:pcreg|         ; 0 (0)               ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|flopr:pcreg                    ; flopr         ; work         ;
-;          |mux2:ra1mux|         ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|mux2:ra1mux                    ; mux2          ; work         ;
-;          |mux2:ra2mux|         ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|mux2:ra2mux                    ; mux2          ; work         ;
-;          |mux2:resmux|         ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|mux2:resmux                    ; mux2          ; work         ;
-;          |mux2:srcbmux|        ; 51 (51)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|mux2:srcbmux                   ; mux2          ; work         ;
-;          |regfile:rf|          ; 331 (331)           ; 256 (256)                 ; 0                 ; 0          ; 0    ; 0            ; |top|arm:arm0|datapath:dp|regfile:rf                     ; regfile       ; work         ;
-;    |dmem:dmem0|                ; 12227 (12227)       ; 32768 (32768)             ; 0                 ; 0          ; 0    ; 0            ; |top|dmem:dmem0                                          ; dmem          ; work         ;
-;    |imem:imem0|                ; 21 (21)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |top|imem:imem0                                          ; imem          ; work         ;
-;    |pll:vgapll|                ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |top|pll:vgapll                                          ; pll           ; work         ;
-;    |vgaController:vgaCont|     ; 30 (30)             ; 20 (20)                   ; 0                 ; 0          ; 0    ; 0            ; |top|vgaController:vgaCont                               ; vgaController ; work         ;
-+--------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------+---------------+--------------+
-Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+--------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                     ;
-+----------------------------------------------------------+---------------------------------------------+
-; Register name                                            ; Reason for Removal                          ;
-+----------------------------------------------------------+---------------------------------------------+
-; arm:arm0|controller:c|condlogic:cl|flopenr:flagreg0|q[1] ; Lost fanout                                 ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][0]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][0]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][0]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][0]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][0]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][0]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][0]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][0]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][1]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][1]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][1]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][1]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][1]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][1]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][1]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][1]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][2]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][2]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][2]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][2]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][2]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][2]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][2]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][2]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][3]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][3]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][3]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][3]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][3]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][3]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][3]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][3]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][4]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][4]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][4]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][4]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][4]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][4]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][4]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][4]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][5]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][5]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][5]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][5]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][5]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][5]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][5]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][5]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][6]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][6]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][6]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][6]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][6]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][6]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][6]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][6]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][7]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][7]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][7]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][7]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][7]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][7]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][7]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][7]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][8]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][8]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][8]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][8]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][8]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][8]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][8]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][8]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][9]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][9]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][9]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][9]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][9]               ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][9]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][9]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][9]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][10]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][10]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][10]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][10]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][10]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][10]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][10]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][10]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][11]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][11]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][11]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][11]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][11]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][11]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][11]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][11]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][12]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][12]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][12]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][12]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][12]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][12]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][12]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][12]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][13]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][13]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][13]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][13]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][13]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][13]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][13]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][13]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][14]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][14]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][14]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][14]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][14]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][14]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][14]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][14]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][15]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][15]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][15]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][15]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][15]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][15]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][15]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][15]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][16]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][16]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][16]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][16]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][16]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][16]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][16]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][16]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][17]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][17]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][17]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][17]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][17]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][17]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][17]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][17]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][18]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][18]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][18]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][18]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][18]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][18]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][18]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][18]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][19]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][19]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][19]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][19]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][19]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][19]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][19]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][19]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][20]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][20]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][20]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][20]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][20]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][20]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][20]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][20]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][21]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][21]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][21]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][21]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][21]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][21]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][21]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][21]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][22]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][22]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][22]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][22]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][22]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][22]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][22]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][22]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][23]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][23]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][23]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][23]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][23]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][23]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][23]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][23]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][24]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][24]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][24]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][24]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][24]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][24]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][24]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][24]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][25]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][25]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][25]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][25]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][25]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][25]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][25]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][25]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][26]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][26]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][26]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][26]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][26]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][26]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][26]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][26]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][27]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][27]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][27]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][27]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][27]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][27]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][27]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][27]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][28]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][28]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][28]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][28]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][28]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][28]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][28]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][28]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][29]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][29]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][29]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][29]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][29]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][29]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][29]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][29]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][30]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][30]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][30]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][30]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][30]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][30]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][30]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][30]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[12][31]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[1][31]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[9][31]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[13][31]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[6][31]              ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[10][31]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[14][31]             ; Stuck at GND due to stuck port clock_enable ;
-; arm:arm0|datapath:dp|regfile:rf|regs[11][31]             ; Stuck at GND due to stuck port clock_enable ;
-; Total Number of Removed Registers = 257                  ;                                             ;
-+----------------------------------------------------------+---------------------------------------------+
-
-
-+------------------------------------------------------+
-; General Register Statistics                          ;
-+----------------------------------------------+-------+
-; Statistic                                    ; Value ;
-+----------------------------------------------+-------+
-; Total registers                              ; 33080 ;
-; Number of registers using Synchronous Clear  ; 20    ;
-; Number of registers using Synchronous Load   ; 30    ;
-; Number of registers using Asynchronous Clear ; 35    ;
-; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 33006 ;
-; Number of registers using Preset             ; 0     ;
-+----------------------------------------------+-------+
-
-
-+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                             ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                   ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
-; 3:1                ; 11 bits   ; 22 LEs        ; 22 LEs               ; 0 LEs                  ; No         ; |top|arm:arm0|datapath:dp|mux2:srcbmux|y[14] ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |top|arm:arm0|datapath:dp|mux2:srcbmux|y[1]  ;
-; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |top|arm:arm0|datapath:dp|mux2:srcbmux|y[4]  ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |top|arm:arm0|datapath:dp|alu:alu0|Mux29     ;
-; 16:1               ; 32 bits   ; 320 LEs       ; 320 LEs              ; 0 LEs                  ; No         ; |top|arm:arm0|datapath:dp|regfile:rf|Mux43   ;
-; 16:1               ; 32 bits   ; 320 LEs       ; 320 LEs              ; 0 LEs                  ; No         ; |top|arm:arm0|datapath:dp|regfile:rf|Mux6    ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
 
 
 +--------------------------------------------------------------------+
@@ -599,16 +107,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; VSYN           ; 0000000010 ; Unsigned Binary                      ;
 ; VMAX           ; 1000001101 ; Unsigned Binary                      ;
 +----------------+------------+--------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Counter:cycle_counter_inst ;
-+----------------+-------+------------------------------------------------+
-; Parameter Name ; Value ; Type                                           ;
-+----------------+-------+------------------------------------------------+
-; N              ; 8     ; Signed Integer                                 ;
-+----------------+-------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -732,6 +230,93 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration Settings                                                                                              ;
++---------------------------------------------------------------------------------+--------------------+-----------------------+
+; Option                                                                          ; Setting            ; Default Value         ;
++---------------------------------------------------------------------------------+--------------------+-----------------------+
+; Device                                                                          ; 5CSXFC6D6F31C6     ;                       ;
+; Top-level entity name                                                           ; top                ; proyecto_final_taller ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V             ;
+; Use smart compilation                                                           ; Off                ; Off                   ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                    ;
+; Enable compact report table                                                     ; Off                ; Off                   ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto                  ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                   ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                   ;
+; Preserve fewer node names                                                       ; On                 ; On                    ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable                ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001          ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993             ;
+; State Machine Processing                                                        ; Auto               ; Auto                  ;
+; Safe State Machine                                                              ; Off                ; Off                   ;
+; Extract Verilog State Machines                                                  ; On                 ; On                    ;
+; Extract VHDL State Machines                                                     ; On                 ; On                    ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                   ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000                  ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                   ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                    ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                    ;
+; Parallel Synthesis                                                              ; On                 ; On                    ;
+; DSP Block Balancing                                                             ; Auto               ; Auto                  ;
+; NOT Gate Push-Back                                                              ; On                 ; On                    ;
+; Power-Up Don't Care                                                             ; On                 ; On                    ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                   ;
+; Remove Duplicate Registers                                                      ; On                 ; On                    ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                   ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                   ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                   ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                   ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                   ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                    ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                   ;
+; Optimization Technique                                                          ; Balanced           ; Balanced              ;
+; Carry Chain Length                                                              ; 70                 ; 70                    ;
+; Auto Carry Chains                                                               ; On                 ; On                    ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                    ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                   ;
+; Auto ROM Replacement                                                            ; On                 ; On                    ;
+; Auto RAM Replacement                                                            ; On                 ; On                    ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                    ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto                  ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto                  ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                    ;
+; Strict RAM Replacement                                                          ; Off                ; Off                   ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                    ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                   ;
+; Auto Resource Sharing                                                           ; Off                ; Off                   ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                   ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                   ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                   ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                    ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                   ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                    ;
+; Report Parameter Settings                                                       ; On                 ; On                    ;
+; Report Source Assignments                                                       ; On                 ; On                    ;
+; Report Connectivity Checks                                                      ; On                 ; On                    ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                   ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                     ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation    ;
+; HDL message level                                                               ; Level2             ; Level2                ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                   ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000                  ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000                  ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                   ;
+; Clock MUX Protection                                                            ; On                 ; On                    ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                   ;
+; Block Design Naming                                                             ; Auto               ; Auto                  ;
+; SDC constraint protection                                                       ; Off                ; Off                   ;
+; Synthesis Effort                                                                ; Auto               ; Auto                  ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                    ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                   ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium                ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto                  ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                    ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                    ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                   ;
++---------------------------------------------------------------------------------+--------------------+-----------------------+
+
+
 +----------------------------------------------------+
 ; Port Connectivity Checks: "dmem:dmem0"             ;
 +-------+--------+----------+------------------------+
@@ -805,18 +390,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------+--------+----------+----------------------------------------------------------------------------------------------------------+
 ; Port          ; Type   ; Severity ; Details                                                                                                  ;
 +---------------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; PC            ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                      ;
 ; cycle_counter ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
 +---------------+--------+----------+----------------------------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter:cycle_counter_inst"                                                         ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; en   ; Input  ; Info     ; Stuck at VCC                                                                        ;
-; Q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -826,184 +402,111 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; visible     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
 ; visible[-1] ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; clk         ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND.                                       ;
+; reset_n     ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND.                                       ;
+; btn_left    ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND.                                       ;
+; btn_right   ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND.                                       ;
+; btn_up      ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND.                                       ;
+; btn_down    ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND.                                       ;
 +-------------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-----------------------------------------------------+
-; Post-Synthesis Netlist Statistics for Top Partition ;
-+-----------------------+-----------------------------+
-; Type                  ; Count                       ;
-+-----------------------+-----------------------------+
-; arriav_ff             ; 33080                       ;
-;     CLR               ; 1                           ;
-;     CLR SLD           ; 30                          ;
-;     ENA               ; 32992                       ;
-;     ENA CLR           ; 4                           ;
-;     ENA SCLR          ; 10                          ;
-;     SCLR              ; 10                          ;
-;     plain             ; 33                          ;
-; arriav_lcell_comb     ; 12926                       ;
-;     arith             ; 144                         ;
-;         1 data inputs ; 80                          ;
-;         4 data inputs ; 1                           ;
-;         5 data inputs ; 63                          ;
-;     extend            ; 2                           ;
-;         7 data inputs ; 2                           ;
-;     normal            ; 12780                       ;
-;         0 data inputs ; 2                           ;
-;         1 data inputs ; 216                         ;
-;         2 data inputs ; 16                          ;
-;         3 data inputs ; 1120                        ;
-;         4 data inputs ; 182                         ;
-;         5 data inputs ; 173                         ;
-;         6 data inputs ; 11071                       ;
-; boundary_port         ; 96                          ;
-;                       ;                             ;
-; Max LUT depth         ; 14.10                       ;
-; Average LUT depth     ; 7.93                        ;
-+-----------------------+-----------------------------+
-
-
-+-------------------------------+
-; Elapsed Time Per Partition    ;
-+----------------+--------------+
-; Partition Name ; Elapsed Time ;
-+----------------+--------------+
-; Top            ; 00:00:34     ;
-+----------------+--------------+
-
-
-+-------------------------------+
-; Analysis & Synthesis Messages ;
-+-------------------------------+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
 Info: *******************************************************************
-Info: Running Quartus Prime Analysis & Synthesis
+Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Sun Jun 22 17:42:47 2025
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off proyecto_final_taller -c proyecto_final_taller
+    Info: Processing started: Sun Jun 22 20:22:16 2025
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off proyecto_final_taller -c proyecto_final_taller --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file mouseps2toleds.sv
-    Info (12023): Found entity 1: MousePS2ToLEDs File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/MousePS2ToLEDs.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file arm.sv
-    Info (12023): Found entity 1: arm File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/arm.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file decoder.sv
-    Info (12023): Found entity 1: decoder File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/decoder.sv Line: 1
-Info (12021): Found 2 design units, including 2 entities, in source file condlogic.sv
-    Info (12023): Found entity 1: condlogic File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/condlogic.sv Line: 2
-    Info (12023): Found entity 2: condcheck File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/condlogic.sv Line: 51
-Info (12021): Found 1 design units, including 1 entities, in source file datapath.sv
-    Info (12023): Found entity 1: datapath File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/datapath.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file adder.sv
-    Info (12023): Found entity 1: adder File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/adder.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file regfile.sv
-    Info (12023): Found entity 1: regfile File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/regfile.sv Line: 2
-Info (12021): Found 1 design units, including 1 entities, in source file mux2.sv
-    Info (12023): Found entity 1: mux2 File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/mux2.sv Line: 2
-Info (12021): Found 1 design units, including 1 entities, in source file extend.sv
-    Info (12023): Found entity 1: extend File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/extend.sv Line: 2
-Info (12021): Found 1 design units, including 1 entities, in source file flopr.sv
-    Info (12023): Found entity 1: flopr File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/flopr.sv Line: 2
-Info (12021): Found 1 design units, including 1 entities, in source file flopenr.sv
-    Info (12023): Found entity 1: flopenr File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/flopenr.sv Line: 2
-Info (12021): Found 1 design units, including 1 entities, in source file testbench.sv
-    Info (12023): Found entity 1: testbench File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/testbench.sv Line: 3
-Info (12021): Found 1 design units, including 1 entities, in source file top.sv
-    Info (12023): Found entity 1: top File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 3
-Info (12021): Found 1 design units, including 1 entities, in source file rom.v
-    Info (12023): Found entity 1: ROM File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/ROM.v Line: 40
-Info (12021): Found 1 design units, including 1 entities, in source file counter.sv
-    Info (12023): Found entity 1: Counter File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/counter.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file alu.sv
-    Info (12023): Found entity 1: alu File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/alu.sv Line: 3
-Info (12021): Found 1 design units, including 1 entities, in source file dmem.sv
-    Info (12023): Found entity 1: dmem File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/dmem.sv Line: 3
-Info (12021): Found 1 design units, including 1 entities, in source file imem.sv
-    Info (12023): Found entity 1: imem File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/imem.sv Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file ram.v
-    Info (12023): Found entity 1: RAM File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/RAM.v Line: 40
+    Info (12023): Found entity 1: RAM File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/RAM.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file mouseps2toleds.sv
+    Info (12023): Found entity 1: MousePS2ToLEDs File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/MousePS2ToLEDs.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file arm.sv
+    Info (12023): Found entity 1: arm File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/arm.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file decoder.sv
+    Info (12023): Found entity 1: decoder File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/decoder.sv Line: 1
+Info (12021): Found 2 design units, including 2 entities, in source file condlogic.sv
+    Info (12023): Found entity 1: condlogic File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/condlogic.sv Line: 2
+    Info (12023): Found entity 2: condcheck File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/condlogic.sv Line: 51
+Info (12021): Found 1 design units, including 1 entities, in source file datapath.sv
+    Info (12023): Found entity 1: datapath File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/datapath.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file adder.sv
+    Info (12023): Found entity 1: adder File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/adder.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file regfile.sv
+    Info (12023): Found entity 1: regfile File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/regfile.sv Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file mux2.sv
+    Info (12023): Found entity 1: mux2 File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/mux2.sv Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file extend.sv
+    Info (12023): Found entity 1: extend File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/extend.sv Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file flopr.sv
+    Info (12023): Found entity 1: flopr File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/flopr.sv Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file flopenr.sv
+    Info (12023): Found entity 1: flopenr File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/flopenr.sv Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file testbench.sv
+    Info (12023): Found entity 1: testbench File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/testbench.sv Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file top.sv
+    Info (12023): Found entity 1: top File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/top.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file rom.v
+    Info (12023): Found entity 1: ROM File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/ROM.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file counter.sv
+    Info (12023): Found entity 1: Counter File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/counter.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu.sv
+    Info (12023): Found entity 1: alu File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/alu.sv Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file dmem.sv
+    Info (12023): Found entity 1: dmem File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/dmem.sv Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file imem.sv
+    Info (12023): Found entity 1: imem File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/imem.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file pll.sv
-    Info (12023): Found entity 1: pll File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/pll.sv Line: 5
+    Info (12023): Found entity 1: pll File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/pll.sv Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file controller.sv
-    Info (12023): Found entity 1: controller File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/controller.sv Line: 1
+    Info (12023): Found entity 1: controller File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/controller.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file vgacontroller.sv
-    Info (12023): Found entity 1: vgaController File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/vgaController.sv Line: 7
+    Info (12023): Found entity 1: vgaController File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/vgaController.sv Line: 7
 Info (12021): Found 1 design units, including 1 entities, in source file startscreen.sv
-    Info (12023): Found entity 1: startScreen File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/startScreen.sv Line: 1
+    Info (12023): Found entity 1: startScreen File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/startScreen.sv Line: 1
 Info (12127): Elaborating entity "top" for the top level hierarchy
-Info (12128): Elaborating entity "pll" for hierarchy "pll:vgapll" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 39
-Info (12128): Elaborating entity "vgaController" for hierarchy "vgaController:vgaCont" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 46
-Info (12128): Elaborating entity "startScreen" for hierarchy "startScreen:initialScreenDrawer" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 55
-Info (12128): Elaborating entity "Counter" for hierarchy "Counter:cycle_counter_inst" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 70
-Info (12128): Elaborating entity "arm" for hierarchy "arm:arm0" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 82
-Info (12128): Elaborating entity "controller" for hierarchy "arm:arm0|controller:c" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/arm.sv Line: 39
-Info (12128): Elaborating entity "decoder" for hierarchy "arm:arm0|controller:c|decoder:dec" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/controller.sv Line: 34
-Info (12128): Elaborating entity "condlogic" for hierarchy "arm:arm0|controller:c|condlogic:cl" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/controller.sv Line: 49
-Info (12128): Elaborating entity "flopenr" for hierarchy "arm:arm0|controller:c|condlogic:cl|flopenr:flagreg1" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/condlogic.sv Line: 27
-Info (12128): Elaborating entity "condcheck" for hierarchy "arm:arm0|controller:c|condlogic:cl|condcheck:cc" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/condlogic.sv Line: 41
-Info (12128): Elaborating entity "datapath" for hierarchy "arm:arm0|datapath:dp" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/arm.sv Line: 58
-Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm0|datapath:dp|mux2:pcmux" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/datapath.sv Line: 39
-Info (12128): Elaborating entity "flopr" for hierarchy "arm:arm0|datapath:dp|flopr:pcreg" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/datapath.sv Line: 40
-Info (12128): Elaborating entity "adder" for hierarchy "arm:arm0|datapath:dp|adder:pcadd1" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/datapath.sv Line: 41
-Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm0|datapath:dp|mux2:ra1mux" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/datapath.sv Line: 45
-Info (12128): Elaborating entity "regfile" for hierarchy "arm:arm0|datapath:dp|regfile:rf" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/datapath.sv Line: 49
-Info (12128): Elaborating entity "extend" for hierarchy "arm:arm0|datapath:dp|extend:ext" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/datapath.sv Line: 55
-Info (12128): Elaborating entity "alu" for hierarchy "arm:arm0|datapath:dp|alu:alu0" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/datapath.sv Line: 59
-Info (12128): Elaborating entity "imem" for hierarchy "imem:imem0" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 90
-Warning (10030): Net "RAM.data_a" at imem.sv(9) has no driver or initial value, using a default initial value '0' File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/imem.sv Line: 9
-Warning (10030): Net "RAM.waddr_a" at imem.sv(9) has no driver or initial value, using a default initial value '0' File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/imem.sv Line: 9
-Warning (10030): Net "RAM.we_a" at imem.sv(9) has no driver or initial value, using a default initial value '0' File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/imem.sv Line: 9
-Info (12128): Elaborating entity "dmem" for hierarchy "dmem:dmem0" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 103
-Warning (10850): Verilog HDL warning at dmem.sv(20): number of words (64) in memory file does not match the number of elements in the address range [0:1023] File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/dmem.sv Line: 20
-Info (276014): Found 2 instances of uninferred RAM logic
-    Info (276007): RAM logic "dmem:dmem0|RAM" is uninferred due to asynchronous read logic File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/dmem.sv Line: 15
-    Info (276004): RAM logic "imem:imem0|RAM" is uninferred due to inappropriate RAM size File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/imem.sv Line: 9
-Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/db/proyecto_final_taller.ram0_dmem_351e6b.hdl.mif" contains "don't care" values -- overwriting them with 0s
+Info (12128): Elaborating entity "pll" for hierarchy "pll:vgapll" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/top.sv Line: 37
+Info (12128): Elaborating entity "vgaController" for hierarchy "vgaController:vgaCont" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/top.sv Line: 44
+Info (12128): Elaborating entity "startScreen" for hierarchy "startScreen:initialScreenDrawer" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/top.sv Line: 53
+Warning (10230): Verilog HDL assignment warning at startScreen.sv(27): truncated value with size 32 to match size of target (10) File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/startScreen.sv Line: 27
+Warning (10230): Verilog HDL assignment warning at startScreen.sv(28): truncated value with size 32 to match size of target (10) File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/startScreen.sv Line: 28
+Warning (10230): Verilog HDL assignment warning at startScreen.sv(31): truncated value with size 32 to match size of target (10) File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/startScreen.sv Line: 31
+Warning (10230): Verilog HDL assignment warning at startScreen.sv(32): truncated value with size 32 to match size of target (10) File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/startScreen.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at startScreen.sv(34): truncated value with size 32 to match size of target (10) File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/startScreen.sv Line: 34
+Warning (10230): Verilog HDL assignment warning at startScreen.sv(35): truncated value with size 32 to match size of target (10) File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/startScreen.sv Line: 35
+Info (12128): Elaborating entity "arm" for hierarchy "arm:arm0" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/top.sv Line: 72
+Info (12128): Elaborating entity "Counter" for hierarchy "arm:arm0|Counter:cycle_counter_inst" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/arm.sv Line: 24
+Info (12128): Elaborating entity "controller" for hierarchy "arm:arm0|controller:c" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/arm.sv Line: 39
+Info (12128): Elaborating entity "decoder" for hierarchy "arm:arm0|controller:c|decoder:dec" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/controller.sv Line: 34
+Info (12128): Elaborating entity "condlogic" for hierarchy "arm:arm0|controller:c|condlogic:cl" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/controller.sv Line: 49
+Info (12128): Elaborating entity "flopenr" for hierarchy "arm:arm0|controller:c|condlogic:cl|flopenr:flagreg1" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/condlogic.sv Line: 27
+Info (12128): Elaborating entity "condcheck" for hierarchy "arm:arm0|controller:c|condlogic:cl|condcheck:cc" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/condlogic.sv Line: 41
+Info (12128): Elaborating entity "datapath" for hierarchy "arm:arm0|datapath:dp" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/arm.sv Line: 58
+Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm0|datapath:dp|mux2:pcmux" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/datapath.sv Line: 39
+Info (12128): Elaborating entity "flopr" for hierarchy "arm:arm0|datapath:dp|flopr:pcreg" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/datapath.sv Line: 40
+Info (12128): Elaborating entity "adder" for hierarchy "arm:arm0|datapath:dp|adder:pcadd1" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/datapath.sv Line: 41
+Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm0|datapath:dp|mux2:ra1mux" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/datapath.sv Line: 45
+Info (12128): Elaborating entity "regfile" for hierarchy "arm:arm0|datapath:dp|regfile:rf" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/datapath.sv Line: 49
+Info (12128): Elaborating entity "extend" for hierarchy "arm:arm0|datapath:dp|extend:ext" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/datapath.sv Line: 55
+Info (12128): Elaborating entity "alu" for hierarchy "arm:arm0|datapath:dp|alu:alu0" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/datapath.sv Line: 59
+Info (12128): Elaborating entity "dmem" for hierarchy "dmem:dmem0" File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/top.sv Line: 89
+Warning (10850): Verilog HDL warning at dmem.sv(19): number of words (255) in memory file does not match the number of elements in the address range [0:255] File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/dmem.sv Line: 19
 Warning (12241): 3 hierarchies have connectivity warnings - see the Connectivity Checks report folder
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "r[0]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 16
-    Warning (13410): Pin "r[1]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 16
-    Warning (13410): Pin "r[2]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 16
-    Warning (13410): Pin "r[3]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 16
-    Warning (13410): Pin "r[4]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 16
-    Warning (13410): Pin "r[5]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 16
-    Warning (13410): Pin "r[6]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 16
-    Warning (13410): Pin "r[7]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 16
-    Warning (13410): Pin "g[0]" is stuck at VCC File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 17
-    Warning (13410): Pin "g[1]" is stuck at VCC File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 17
-    Warning (13410): Pin "g[2]" is stuck at VCC File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 17
-    Warning (13410): Pin "g[3]" is stuck at VCC File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 17
-    Warning (13410): Pin "g[4]" is stuck at VCC File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 17
-    Warning (13410): Pin "g[5]" is stuck at VCC File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 17
-    Warning (13410): Pin "g[6]" is stuck at VCC File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 17
-    Warning (13410): Pin "g[7]" is stuck at VCC File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 17
-    Warning (13410): Pin "b[0]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 20
-    Warning (13410): Pin "b[1]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 20
-    Warning (13410): Pin "b[2]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 20
-    Warning (13410): Pin "b[3]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 20
-    Warning (13410): Pin "b[4]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 20
-    Warning (13410): Pin "b[5]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 20
-    Warning (13410): Pin "b[6]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 20
-    Warning (13410): Pin "b[7]" is stuck at GND File: C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv Line: 20
-Info (286030): Timing-Driven Synthesis is running
-Info (17049): 1 registers lost all their fanouts during netlist optimizations.
-Info (144001): Generated suppressed messages file C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/output_files/proyecto_final_taller.map.smsg
-Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
-    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 45854 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 2 input pins
-    Info (21059): Implemented 94 output pins
-    Info (21061): Implemented 45758 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 32 warnings
-    Info: Peak virtual memory: 5239 megabytes
-    Info: Processing ended: Sun Jun 22 17:43:30 2025
-    Info: Elapsed time: 00:00:43
-    Info: Total CPU time (on all processors): 00:00:50
+Info (144001): Generated suppressed messages file C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/output_files/proyecto_final_taller.map.smsg
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 9 warnings
+    Info: Peak virtual memory: 4808 megabytes
+    Info: Processing ended: Sun Jun 22 20:22:21 2025
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:13
 
 
-+------------------------------------------+
-; Analysis & Synthesis Suppressed Messages ;
-+------------------------------------------+
-The suppressed messages can be found in C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/output_files/proyecto_final_taller.map.smsg.
++--------------------------------------------+
+; Analysis & Elaboration Suppressed Messages ;
++--------------------------------------------+
+The suppressed messages can be found in C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/output_files/proyecto_final_taller.map.smsg.
 
 

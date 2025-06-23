@@ -45,24 +45,27 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/arm.sv}
-vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/decoder.sv}
-vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/condlogic.sv}
-vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/datapath.sv}
-vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/adder.sv}
-vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/regfile.sv}
-vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/mux2.sv}
-vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/extend.sv}
-vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/flopr.sv}
-vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/flopenr.sv}
-vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/top.sv}
-vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/counter.sv}
-vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/alu.sv}
-vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/controller.sv}
-vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/dmem.sv}
-vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/imem.sv}
+vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/arm.sv}
+vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/decoder.sv}
+vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/condlogic.sv}
+vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/datapath.sv}
+vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/adder.sv}
+vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/regfile.sv}
+vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/mux2.sv}
+vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/extend.sv}
+vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/flopr.sv}
+vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/flopenr.sv}
+vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/top.sv}
+vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/counter.sv}
+vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/alu.sv}
+vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/pll.sv}
+vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/controller.sv}
+vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/vgaController.sv}
+vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/startScreen.sv}
+vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/dmem.sv}
+vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/imem.sv}
 
-vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/testbench.sv}
+vlog -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda {C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/testbench.sv}
 
 vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testbench
 

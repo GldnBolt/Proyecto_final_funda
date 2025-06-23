@@ -1,12 +1,12 @@
-Fitter Status : Successful - Sun Jun 22 17:51:22 2025
+Fitter Status : Successful - Sun Jun 22 20:20:10 2025
 Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 Revision Name : proyecto_final_taller
 Top-level Entity Name : top
 Family : Cyclone V
 Device : 5CSXFC6D6F31C6
 Timing Models : Final
-Logic utilization (in ALMs) : 16,506 / 41,910 ( 39 % )
-Total registers : 33080
+Logic utilization (in ALMs) : 20 / 41,910 ( < 1 % )
+Total registers : 21
 Total pins : 96 / 499 ( 19 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 5,662,720 ( 0 % )

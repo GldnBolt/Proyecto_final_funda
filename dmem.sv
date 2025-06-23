@@ -1,4 +1,3 @@
-`timescale 1ns/1ps
 
 module dmem (
     input  logic        clk,      // reloj
@@ -12,12 +11,12 @@ module dmem (
 );
 
     // Banco de 64 palabras de 32 bits
-    logic [31:0] RAM [0:1023];
+    logic [31:0] RAM [0:255];
 
     // Inicialización desde fichero (igual que en imem)
     initial begin
         //$readmemh("C:/Users/Gabriel/Desktop/Proyecto_final_funda/RAM.dat", RAM);
-		  $readmemh("C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda-Development/Proyecto_final_funda-Development/ROM.dat", RAM);
+		  $readmemh("C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/RAM.dat", RAM);
 
     end
 
