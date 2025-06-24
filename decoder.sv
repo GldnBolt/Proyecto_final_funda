@@ -37,13 +37,31 @@ module decoder(
 
     // ALU decoder and flag write logic
     always_comb begin
+        // Verificar los valores de Op y Funct antes de asignar ALUControl
+        $display("Op: %b, Funct: %b", Op, Funct);
+
         if (ALUOp) begin
-            case (Funct[4:1])
-                4'b0100: ALUControl = 2'b00; // ADD
-                4'b0010: ALUControl = 2'b01; // SUB
-                4'b0000: ALUControl = 2'b10; // AND
-                4'b1100: ALUControl = 2'b11; // ORR
-                default: ALUControl = 2'bx;
+            case (Funct[4:1])  // Aquí estamos usando Funct[4:1] para las operaciones de la ALU
+                4'b0100: begin
+                    ALUControl = 2'b00; // ADD
+                    $display("ALUControl (ADD): %b", ALUControl);
+                end
+                4'b0010: begin
+                    ALUControl = 2'b01; // SUB
+                    $display("ALUControl (SUB): %b", ALUControl);
+                end
+                4'b0000: begin
+                    ALUControl = 2'b10; // AND
+                    $display("ALUControl (AND): %b", ALUControl);
+                end
+                4'b1100: begin
+                    ALUControl = 2'b11; // ORR
+                    $display("ALUControl (ORR): %b", ALUControl);
+                end
+                default: begin
+                    ALUControl = 2'bxx;  // Valor indeterminado si no coincide
+                    $display("ALUControl (default): %b", ALUControl);
+                end
             endcase
             // Update flags only if S bit (Funct[0]) is set
             FlagW[1] = Funct[0];
@@ -52,6 +70,8 @@ module decoder(
             ALUControl = 2'b00;    // default ADD
             FlagW      = 2'b00;    // no flag update
         end
+
+        $display("ALUControl: %b", ALUControl); // Mostrar el valor de ALUControl
     end
 
     // PC select: branch or register writes to PC (Rd == 15)

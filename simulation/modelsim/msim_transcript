@@ -13,7 +13,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:27 on Jun 23,2025
+# Start time: 22:58:32 on Jun 23,2025
 # vlog -reportprogress 300 -vlog01compat -work altera_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -95,7 +95,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 17:01:28 on Jun 23,2025, Elapsed time: 0:00:01
+# End time: 22:58:33 on Jun 23,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -106,7 +106,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:29 on Jun 23,2025
+# Start time: 22:58:33 on Jun 23,2025
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -170,7 +170,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 17:01:29 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:33 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -181,7 +181,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:29 on Jun 23,2025
+# Start time: 22:58:34 on Jun 23,2025
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -223,7 +223,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 17:01:29 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:34 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -234,7 +234,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:30 on Jun 23,2025
+# Start time: 22:58:34 on Jun 23,2025
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -364,7 +364,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 17:01:31 on Jun 23,2025, Elapsed time: 0:00:01
+# End time: 22:58:35 on Jun 23,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -375,7 +375,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:32 on Jun 23,2025
+# Start time: 22:58:35 on Jun 23,2025
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -458,7 +458,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 17:01:33 on Jun 23,2025, Elapsed time: 0:00:01
+# End time: 22:58:36 on Jun 23,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_ver
@@ -469,7 +469,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:33 on Jun 23,2025
+# Start time: 22:58:36 on Jun 23,2025
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -483,19 +483,19 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 17:01:36 on Jun 23,2025, Elapsed time: 0:00:03
+# End time: 22:58:38 on Jun 23,2025, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 10
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:36 on Jun 23,2025
+# Start time: 22:58:38 on Jun 23,2025
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 17:01:38 on Jun 23,2025, Elapsed time: 0:00:02
+# End time: 22:58:39 on Jun 23,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:38 on Jun 23,2025
+# Start time: 22:58:39 on Jun 23,2025
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v 
 # -- Compiling UDP CYCLONEV_PRIM_DFFE
 # -- Compiling UDP CYCLONEV_PRIM_DFFEAS
@@ -635,7 +635,7 @@
 # 	cyclonev_mem_phy
 # 	cyclonev_oscillator
 # 	cyclonev_hps_interface_fpga2sdram
-# End time: 17:01:39 on Jun 23,2025, Elapsed time: 0:00:01
+# End time: 22:58:40 on Jun 23,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_hssi_ver
@@ -646,15 +646,15 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_hssi_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:40 on Jun 23,2025
+# Start time: 22:58:41 on Jun 23,2025
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 17:01:42 on Jun 23,2025, Elapsed time: 0:00:02
+# End time: 22:58:42 on Jun 23,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_hssi_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:42 on Jun 23,2025
+# Start time: 22:58:42 on Jun 23,2025
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v 
 # -- Compiling module cyclonev_hssi_8g_pcs_aggregate
 # -- Compiling module cyclonev_hssi_8g_rx_pcs
@@ -754,7 +754,7 @@
 # 	arriav_hssi_avmm_interface
 # 	arriav_hssi_pma_hi_pmaif
 # 	arriav_hssi_pma_hi_xcvrif
-# End time: 17:01:43 on Jun 23,2025, Elapsed time: 0:00:01
+# End time: 22:58:42 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_pcie_hip_ver
@@ -765,7 +765,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:43 on Jun 23,2025
+# Start time: 22:58:43 on Jun 23,2025
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -775,18 +775,18 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 17:01:46 on Jun 23,2025, Elapsed time: 0:00:03
+# End time: 22:58:45 on Jun 23,2025, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 6
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:46 on Jun 23,2025
+# Start time: 22:58:45 on Jun 23,2025
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v 
 # -- Compiling module cyclonev_hd_altpe2_hip_top
 # -- Compiling module arriav_hd_altpe2_hip_top
 # 
 # Top level modules:
 # 	cyclonev_hd_altpe2_hip_top
-# End time: 17:01:46 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:45 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -798,258 +798,215 @@
 # vmap work rtl_work 
 # Modifying modelsim.ini
 # 
-# vlog -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda {C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/arm.sv}
+# vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/arm.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:47 on Jun 23,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda" C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/arm.sv 
+# Start time: 22:58:45 on Jun 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda" C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/arm.sv 
 # -- Compiling module arm
 # 
 # Top level modules:
 # 	arm
-# End time: 17:01:47 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:45 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda {C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/decoder.sv}
+# vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/decoder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:47 on Jun 23,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda" C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/decoder.sv 
+# Start time: 22:58:46 on Jun 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda" C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/decoder.sv 
 # -- Compiling module decoder
 # 
 # Top level modules:
 # 	decoder
-# End time: 17:01:47 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:46 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda {C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/condlogic.sv}
+# vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/condlogic.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:47 on Jun 23,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda" C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/condlogic.sv 
+# Start time: 22:58:46 on Jun 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda" C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/condlogic.sv 
 # -- Compiling module condlogic
 # -- Compiling module condcheck
 # 
 # Top level modules:
 # 	condlogic
-# End time: 17:01:47 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:46 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda {C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/datapath.sv}
+# vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:47 on Jun 23,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda" C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/datapath.sv 
+# Start time: 22:58:46 on Jun 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda" C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv 
 # -- Compiling module datapath
 # 
 # Top level modules:
 # 	datapath
-# End time: 17:01:47 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:46 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda {C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/adder.sv}
+# vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/adder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:47 on Jun 23,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda" C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/adder.sv 
+# Start time: 22:58:46 on Jun 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda" C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/adder.sv 
 # -- Compiling module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 17:01:47 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:46 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda {C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/regfile.sv}
+# vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/regfile.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:47 on Jun 23,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda" C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/regfile.sv 
+# Start time: 22:58:46 on Jun 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda" C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/regfile.sv 
 # -- Compiling module regfile
 # 
 # Top level modules:
 # 	regfile
-# End time: 17:01:47 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:46 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda {C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/mux2.sv}
+# vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/mux2.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:47 on Jun 23,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda" C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/mux2.sv 
+# Start time: 22:58:46 on Jun 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda" C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/mux2.sv 
 # -- Compiling module mux2
 # 
 # Top level modules:
 # 	mux2
-# End time: 17:01:47 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:46 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda {C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/extend.sv}
+# vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/extend.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:47 on Jun 23,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda" C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/extend.sv 
+# Start time: 22:58:46 on Jun 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda" C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/extend.sv 
 # -- Compiling module extend
 # 
 # Top level modules:
 # 	extend
-# End time: 17:01:48 on Jun 23,2025, Elapsed time: 0:00:01
+# End time: 22:58:46 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda {C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/flopr.sv}
+# vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopr.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:48 on Jun 23,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda" C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/flopr.sv 
+# Start time: 22:58:46 on Jun 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda" C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopr.sv 
 # -- Compiling module flopr
 # 
 # Top level modules:
 # 	flopr
-# End time: 17:01:48 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:46 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda {C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/flopenr.sv}
+# vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopenr.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:48 on Jun 23,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda" C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/flopenr.sv 
+# Start time: 22:58:47 on Jun 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda" C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopenr.sv 
 # -- Compiling module flopenr
 # 
 # Top level modules:
 # 	flopenr
-# End time: 17:01:48 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:47 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda {C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv}
+# vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:48 on Jun 23,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda" C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv 
+# Start time: 22:58:47 on Jun 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda" C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv 
 # -- Compiling module top
 # 
 # Top level modules:
 # 	top
-# End time: 17:01:48 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:47 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda {C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/counter.sv}
+# vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/counter.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:48 on Jun 23,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda" C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/counter.sv 
+# Start time: 22:58:47 on Jun 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda" C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/counter.sv 
 # -- Compiling module Counter
 # 
 # Top level modules:
 # 	Counter
-# End time: 17:01:48 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:47 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda {C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/alu.sv}
+# vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/alu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:48 on Jun 23,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda" C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/alu.sv 
+# Start time: 22:58:47 on Jun 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda" C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/alu.sv 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 17:01:48 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:47 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda {C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/pll.sv}
+# vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/pll.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:48 on Jun 23,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda" C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/pll.sv 
+# Start time: 22:58:47 on Jun 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda" C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/pll.sv 
 # -- Compiling module pll
 # 
 # Top level modules:
 # 	pll
-# End time: 17:01:48 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:47 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda {C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/controller.sv}
+# vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/controller.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:48 on Jun 23,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda" C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/controller.sv 
+# Start time: 22:58:47 on Jun 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda" C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/controller.sv 
 # -- Compiling module controller
 # 
 # Top level modules:
 # 	controller
-# End time: 17:01:48 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:47 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda {C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/vgaController.sv}
+# vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/vgaController.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:48 on Jun 23,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda" C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/vgaController.sv 
+# Start time: 22:58:47 on Jun 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda" C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/vgaController.sv 
 # -- Compiling module vgaController
 # 
 # Top level modules:
 # 	vgaController
-# End time: 17:01:48 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:47 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda {C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv}
+# vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:49 on Jun 23,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda" C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv 
+# Start time: 22:58:47 on Jun 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda" C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv 
 # -- Compiling module startScreen
 # 
 # Top level modules:
 # 	startScreen
-# End time: 17:01:49 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:48 on Jun 23,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda {C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/dmem.sv}
+# vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/dmem.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:49 on Jun 23,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda" C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/dmem.sv 
+# Start time: 22:58:48 on Jun 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda" C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/dmem.sv 
 # -- Compiling module dmem
 # 
 # Top level modules:
 # 	dmem
-# End time: 17:01:49 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:48 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda {C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/imem.sv}
+# vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:49 on Jun 23,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda" C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/imem.sv 
+# Start time: 22:58:48 on Jun 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda" C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv 
 # -- Compiling module imem
 # 
 # Top level modules:
 # 	imem
-# End time: 17:01:49 on Jun 23,2025, Elapsed time: 0:00:00
+# End time: 22:58:48 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -sv -work work +incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda {C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/testbench.sv}
+# vlog -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda {C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench_regfile.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:01:49 on Jun 23,2025
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda" C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/testbench.sv 
-# -- Compiling module testbench
+# Start time: 22:58:48 on Jun 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda" C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench_regfile.sv 
+# -- Compiling module testbench_regfile
 # 
 # Top level modules:
-# 	testbench
-# End time: 17:01:49 on Jun 23,2025, Elapsed time: 0:00:00
+# 	testbench_regfile
+# End time: 22:58:48 on Jun 23,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testbench
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
-# Start time: 17:01:49 on Jun 23,2025
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testbench_regfile
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" testbench_regfile 
+# Start time: 22:58:48 on Jun 23,2025
 # Loading sv_std.std
-# Loading work.testbench
-# Loading work.top
-# Loading work.pll
-# Loading work.vgaController
-# Loading work.startScreen
-# Loading work.arm
-# Loading work.Counter
-# Loading work.controller
-# Loading work.decoder
-# Loading work.condlogic
-# Loading work.flopenr
-# Loading work.condcheck
-# Loading work.datapath
-# Loading work.adder
-# Loading work.mux2
-# Loading work.flopr
+# Loading work.testbench_regfile
 # Loading work.regfile
-# Loading work.alu
-# Loading work.extend
-# Loading work.imem
-# Loading work.dmem
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 10, found 2.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/testbench.sv Line: 7
-# ** Warning: (vsim-3722) C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/testbench.sv(7): [TFMPC] - Missing connection for port 'vgaclk'.
-# ** Warning: (vsim-3722) C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/testbench.sv(7): [TFMPC] - Missing connection for port 'hsync'.
-# ** Warning: (vsim-3722) C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/testbench.sv(7): [TFMPC] - Missing connection for port 'vsync'.
-# ** Warning: (vsim-3722) C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/testbench.sv(7): [TFMPC] - Missing connection for port 'sync_b'.
-# ** Warning: (vsim-3722) C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/testbench.sv(7): [TFMPC] - Missing connection for port 'blank_b'.
-# ** Warning: (vsim-3722) C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/testbench.sv(7): [TFMPC] - Missing connection for port 'r'.
-# ** Warning: (vsim-3722) C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/testbench.sv(7): [TFMPC] - Missing connection for port 'g'.
-# ** Warning: (vsim-3722) C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/testbench.sv(7): [TFMPC] - Missing connection for port 'b'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'initialScreenDrawer'.  Expected 12, found 6.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/initialScreenDrawer File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv Line: 41
-# ** Warning: (vsim-3722) C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv(41): [TFMPC] - Missing connection for port 'clk'.
-# ** Warning: (vsim-3722) C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv(41): [TFMPC] - Missing connection for port 'reset_n'.
-# ** Warning: (vsim-3722) C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv(41): [TFMPC] - Missing connection for port 'btn_left'.
-# ** Warning: (vsim-3722) C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv(41): [TFMPC] - Missing connection for port 'btn_right'.
-# ** Warning: (vsim-3722) C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv(41): [TFMPC] - Missing connection for port 'btn_up'.
-# ** Warning: (vsim-3722) C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv(41): [TFMPC] - Missing connection for port 'btn_down'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'arm0'.  Expected 9, found 8.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/arm0 File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv Line: 51
-# ** Warning: (vsim-3722) C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv(51): [TFMPC] - Missing connection for port 'cycle_counter'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dp'.  Expected 16, found 15.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/arm0/dp File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/arm.sv Line: 42
-# ** Warning: (vsim-3722) C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/arm.sv(42): [TFMPC] - Missing connection for port 'cycle_counter'.
 # 
 # add wave *
 # view structure
@@ -1057,33 +1014,11 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# Reset active. Counter reset to 0
-# DataAdr:          0, WriteData:          8
-# Reset active. Counter reset to 0
-# DataAdr:          0, WriteData:          8
-# Reset active. Counter reset to 0
-# DataAdr:          0, WriteData:          8
-# DataAdr:          5, WriteData:          x
-# DataAdr:         12, WriteData:          x
-# DataAdr:          3, WriteData:          x
-# DataAdr:          7, WriteData:          5
-# DataAdr:          4, WriteData:          7
-# DataAdr:         11, WriteData:          7
-# DataAdr:          8, WriteData:          3
-# DataAdr:         88, WriteData:          x
-# DataAdr:          5, WriteData:          7
-# DataAdr:         40, WriteData:          0
-# DataAdr: 4294967294, WriteData:          5
-# DataAdr:         12, WriteData:          x
-# DataAdr:          7, WriteData:          5
-# DataAdr:         96, WriteData:          7
-# DataAdr:         96, WriteData:          0
-# DataAdr:         68, WriteData:          0
-# DataAdr:         80, WriteData:          x
-# DataAdr:        100, WriteData:          z
-# Simulation failed
-# ** Note: $stop    : C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/testbench.sv(62)
-#    Time: 205 ps  Iteration: 1  Instance: /testbench
-# Break in Module testbench at C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/testbench.sv line 62
-# End time: 17:57:11 on Jun 23,2025, Elapsed time: 0:55:22
-# Errors: 0, Warnings: 20
+# Reading rd1: xxxxxxxx, rd2: xxxxxxxx
+# Test failed: Reg2 not written correctly
+# ALUResult: xxxxxxxx
+# ** Note: $stop    : C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench_regfile.sv(56)
+#    Time: 30 ps  Iteration: 0  Instance: /testbench_regfile
+# Break in Module testbench_regfile at C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench_regfile.sv line 56
+# End time: 23:00:41 on Jun 23,2025, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 0

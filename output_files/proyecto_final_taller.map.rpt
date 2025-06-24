@@ -1,5 +1,5 @@
 Analysis & Elaboration report for proyecto_final_taller
-Mon Jun 23 17:01:16 2025
+Mon Jun 23 22:55:49 2025
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -31,11 +31,12 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
  23. Port Connectivity Checks: "arm:arm0|datapath:dp|adder:pcadd1"
  24. Port Connectivity Checks: "arm:arm0|datapath:dp|Counter:cycle_counter_inst"
  25. Port Connectivity Checks: "arm:arm0|datapath:dp"
- 26. Port Connectivity Checks: "arm:arm0|Counter:cycle_counter_inst"
- 27. Port Connectivity Checks: "arm:arm0"
- 28. Port Connectivity Checks: "startScreen:initialScreenDrawer"
- 29. Analysis & Elaboration Messages
- 30. Analysis & Elaboration Suppressed Messages
+ 26. Port Connectivity Checks: "arm:arm0|controller:c"
+ 27. Port Connectivity Checks: "arm:arm0|Counter:cycle_counter_inst"
+ 28. Port Connectivity Checks: "arm:arm0"
+ 29. Port Connectivity Checks: "startScreen:initialScreenDrawer"
+ 30. Analysis & Elaboration Messages
+ 31. Analysis & Elaboration Suppressed Messages
 
 
 
@@ -62,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                 ;
 +-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Mon Jun 23 17:01:16 2025          ;
+; Analysis & Elaboration Status ; Successful - Mon Jun 23 22:55:49 2025          ;
 ; Quartus Prime Version         ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                 ; proyecto_final_taller                          ;
 ; Top-level Entity Name         ; top                                            ;
@@ -82,8 +83,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 12          ;
-; Maximum allowed            ; 6           ;
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 16          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -399,6 +400,15 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------+--------+----------+----------------------------------------------------------------------------------------------------------+
 
 
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm0|controller:c"                                                                                                                            ;
++-------+-------+----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                           ;
++-------+-------+----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Instr ; Input ; Warning  ; Input port expression (20 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "Instr[31..20]" will be connected to GND. ;
++-------+-------+----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
 +-----------------------------------------------------------------+
 ; Port Connectivity Checks: "arm:arm0|Counter:cycle_counter_inst" ;
 +------+-------+----------+---------------------------------------+
@@ -439,123 +449,135 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Mon Jun 23 17:01:06 2025
+    Info: Processing started: Mon Jun 23 22:55:44 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off proyecto_final_taller -c proyecto_final_taller --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file ram.v
-    Info (12023): Found entity 1: RAM File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/RAM.v Line: 40
+    Info (12023): Found entity 1: RAM File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/RAM.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file mouseps2toleds.sv
-    Info (12023): Found entity 1: MousePS2ToLEDs File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/MousePS2ToLEDs.sv Line: 1
+    Info (12023): Found entity 1: MousePS2ToLEDs File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/MousePS2ToLEDs.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file arm.sv
-    Info (12023): Found entity 1: arm File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/arm.sv Line: 1
+    Info (12023): Found entity 1: arm File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/arm.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file decoder.sv
-    Info (12023): Found entity 1: decoder File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/decoder.sv Line: 1
+    Info (12023): Found entity 1: decoder File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/decoder.sv Line: 1
 Info (12021): Found 2 design units, including 2 entities, in source file condlogic.sv
-    Info (12023): Found entity 1: condlogic File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/condlogic.sv Line: 2
-    Info (12023): Found entity 2: condcheck File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/condlogic.sv Line: 51
+    Info (12023): Found entity 1: condlogic File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/condlogic.sv Line: 2
+    Info (12023): Found entity 2: condcheck File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/condlogic.sv Line: 51
 Info (12021): Found 1 design units, including 1 entities, in source file datapath.sv
-    Info (12023): Found entity 1: datapath File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/datapath.sv Line: 1
+    Info (12023): Found entity 1: datapath File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file adder.sv
-    Info (12023): Found entity 1: adder File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/adder.sv Line: 1
+    Info (12023): Found entity 1: adder File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/adder.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file regfile.sv
-    Info (12023): Found entity 1: regfile File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/regfile.sv Line: 1
+    Info (12023): Found entity 1: regfile File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/regfile.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux2.sv
-    Info (12023): Found entity 1: mux2 File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/mux2.sv Line: 2
+    Info (12023): Found entity 1: mux2 File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/mux2.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file extend.sv
-    Info (12023): Found entity 1: extend File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/extend.sv Line: 2
+    Info (12023): Found entity 1: extend File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/extend.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file flopr.sv
-    Info (12023): Found entity 1: flopr File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/flopr.sv Line: 2
+    Info (12023): Found entity 1: flopr File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopr.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file flopenr.sv
-    Info (12023): Found entity 1: flopenr File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/flopenr.sv Line: 2
+    Info (12023): Found entity 1: flopenr File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopenr.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file testbench.sv
-    Info (12023): Found entity 1: testbench File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/testbench.sv Line: 1
+    Info (12023): Found entity 1: testbench File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file top.sv
-    Info (12023): Found entity 1: top File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv Line: 1
+    Info (12023): Found entity 1: top File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file rom.v
-    Info (12023): Found entity 1: ROM File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/ROM.v Line: 40
+    Info (12023): Found entity 1: ROM File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/ROM.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file counter.sv
-    Info (12023): Found entity 1: Counter File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/counter.sv Line: 1
+    Info (12023): Found entity 1: Counter File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/counter.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu.sv
-    Info (12023): Found entity 1: alu File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/alu.sv Line: 2
+    Info (12023): Found entity 1: alu File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/alu.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file dmem.sv
-    Info (12023): Found entity 1: dmem File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/dmem.sv Line: 1
+    Info (12023): Found entity 1: dmem File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/dmem.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file imem.sv
-    Info (12023): Found entity 1: imem File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/imem.sv Line: 2
+    Info (12023): Found entity 1: imem File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file pll.sv
-    Info (12023): Found entity 1: pll File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/pll.sv Line: 5
+    Info (12023): Found entity 1: pll File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/pll.sv Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file controller.sv
-    Info (12023): Found entity 1: controller File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/controller.sv Line: 1
+    Info (12023): Found entity 1: controller File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/controller.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file vgacontroller.sv
-    Info (12023): Found entity 1: vgaController File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/vgaController.sv Line: 7
+    Info (12023): Found entity 1: vgaController File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/vgaController.sv Line: 7
 Info (12021): Found 1 design units, including 1 entities, in source file startscreen.sv
-    Info (12023): Found entity 1: startScreen File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 1
+    Info (12023): Found entity 1: startScreen File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file testbench_alu.sv
+    Info (12023): Found entity 1: testbench_alu File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench_alu.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file testbench_dmem.sv
+    Info (12023): Found entity 1: testbench_dmem File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench_dmem.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file testbench_controller.sv
+    Info (12023): Found entity 1: testbench_controller File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench_controller.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file testbench_datapath.sv
+    Info (12023): Found entity 1: testbench_datapath File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench_datapath.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file testbench_decoder.sv
+    Info (12023): Found entity 1: testbench_decoder File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench_decoder.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file testbench_regfile.sv
+    Info (12023): Found entity 1: testbench_regfile File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench_regfile.sv Line: 1
 Info (12127): Elaborating entity "top" for the top level hierarchy
-Info (12128): Elaborating entity "pll" for hierarchy "pll:vgapll" File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv Line: 32
-Info (12128): Elaborating entity "vgaController" for hierarchy "vgaController:vgaCont" File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv Line: 38
-Info (12128): Elaborating entity "startScreen" for hierarchy "startScreen:initialScreenDrawer" File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv Line: 43
-Warning (10230): Verilog HDL assignment warning at startScreen.sv(32): truncated value with size 32 to match size of target (10) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 32
-Warning (10230): Verilog HDL assignment warning at startScreen.sv(33): truncated value with size 32 to match size of target (10) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 33
-Warning (10230): Verilog HDL assignment warning at startScreen.sv(35): truncated value with size 32 to match size of target (10) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 35
-Warning (10230): Verilog HDL assignment warning at startScreen.sv(36): truncated value with size 32 to match size of target (10) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 36
-Warning (10230): Verilog HDL assignment warning at startScreen.sv(39): truncated value with size 32 to match size of target (10) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 39
-Warning (10230): Verilog HDL assignment warning at startScreen.sv(40): truncated value with size 32 to match size of target (10) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 40
-Warning (10230): Verilog HDL assignment warning at startScreen.sv(43): truncated value with size 32 to match size of target (10) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 43
-Warning (10230): Verilog HDL assignment warning at startScreen.sv(44): truncated value with size 32 to match size of target (10) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 44
-Warning (10240): Verilog HDL Always Construct warning at startScreen.sv(29): inferring latch(es) for variable "ball_posX", which holds its previous value in one or more paths through the always construct File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Warning (10240): Verilog HDL Always Construct warning at startScreen.sv(29): inferring latch(es) for variable "ball_posY", which holds its previous value in one or more paths through the always construct File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (10041): Inferred latch for "ball_posY[0]" at startScreen.sv(29) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (10041): Inferred latch for "ball_posY[1]" at startScreen.sv(29) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (10041): Inferred latch for "ball_posY[2]" at startScreen.sv(29) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (10041): Inferred latch for "ball_posY[3]" at startScreen.sv(29) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (10041): Inferred latch for "ball_posY[4]" at startScreen.sv(29) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (10041): Inferred latch for "ball_posY[5]" at startScreen.sv(29) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (10041): Inferred latch for "ball_posY[6]" at startScreen.sv(29) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (10041): Inferred latch for "ball_posY[7]" at startScreen.sv(29) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (10041): Inferred latch for "ball_posY[8]" at startScreen.sv(29) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (10041): Inferred latch for "ball_posY[9]" at startScreen.sv(29) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (10041): Inferred latch for "ball_posX[0]" at startScreen.sv(29) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (10041): Inferred latch for "ball_posX[1]" at startScreen.sv(29) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (10041): Inferred latch for "ball_posX[2]" at startScreen.sv(29) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (10041): Inferred latch for "ball_posX[3]" at startScreen.sv(29) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (10041): Inferred latch for "ball_posX[4]" at startScreen.sv(29) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (10041): Inferred latch for "ball_posX[5]" at startScreen.sv(29) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (10041): Inferred latch for "ball_posX[6]" at startScreen.sv(29) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (10041): Inferred latch for "ball_posX[7]" at startScreen.sv(29) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (10041): Inferred latch for "ball_posX[8]" at startScreen.sv(29) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (10041): Inferred latch for "ball_posX[9]" at startScreen.sv(29) File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/startScreen.sv Line: 29
-Info (12128): Elaborating entity "arm" for hierarchy "arm:arm0" File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv Line: 60
-Info (12128): Elaborating entity "Counter" for hierarchy "arm:arm0|Counter:cycle_counter_inst" File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/arm.sv Line: 24
-Info (12128): Elaborating entity "controller" for hierarchy "arm:arm0|controller:c" File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/arm.sv Line: 39
-Info (12128): Elaborating entity "decoder" for hierarchy "arm:arm0|controller:c|decoder:dec" File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/controller.sv Line: 34
-Info (12128): Elaborating entity "condlogic" for hierarchy "arm:arm0|controller:c|condlogic:cl" File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/controller.sv Line: 49
-Info (12128): Elaborating entity "flopenr" for hierarchy "arm:arm0|controller:c|condlogic:cl|flopenr:flagreg1" File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/condlogic.sv Line: 27
-Info (12128): Elaborating entity "condcheck" for hierarchy "arm:arm0|controller:c|condlogic:cl|condcheck:cc" File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/condlogic.sv Line: 41
-Info (12128): Elaborating entity "datapath" for hierarchy "arm:arm0|datapath:dp" File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/arm.sv Line: 58
-Info (12128): Elaborating entity "adder" for hierarchy "arm:arm0|datapath:dp|adder:pcadd1" File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/datapath.sv Line: 39
-Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm0|datapath:dp|mux2:pcmux" File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/datapath.sv Line: 46
-Info (12128): Elaborating entity "flopr" for hierarchy "arm:arm0|datapath:dp|flopr:pcreg" File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/datapath.sv Line: 47
-Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm0|datapath:dp|mux2:ra1mux" File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/datapath.sv Line: 50
-Info (12128): Elaborating entity "regfile" for hierarchy "arm:arm0|datapath:dp|regfile:rf" File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/datapath.sv Line: 57
-Info (12128): Elaborating entity "alu" for hierarchy "arm:arm0|datapath:dp|alu:alu0" File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/datapath.sv Line: 65
-Info (12128): Elaborating entity "extend" for hierarchy "arm:arm0|datapath:dp|extend:ext" File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/datapath.sv Line: 68
-Info (12128): Elaborating entity "imem" for hierarchy "imem:imem0" File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv Line: 66
-Warning (10030): Net "RAM.data_a" at imem.sv(8) has no driver or initial value, using a default initial value '0' File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/imem.sv Line: 8
-Warning (10030): Net "RAM.waddr_a" at imem.sv(8) has no driver or initial value, using a default initial value '0' File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/imem.sv Line: 8
-Warning (10030): Net "RAM.we_a" at imem.sv(8) has no driver or initial value, using a default initial value '0' File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/imem.sv Line: 8
-Info (12128): Elaborating entity "dmem" for hierarchy "dmem:dmem0" File: C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/top.sv Line: 77
-Warning (12241): 3 hierarchies have connectivity warnings - see the Connectivity Checks report folder
-Info (144001): Generated suppressed messages file C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/output_files/proyecto_final_taller.map.smsg
+Info (12128): Elaborating entity "pll" for hierarchy "pll:vgapll" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 32
+Info (12128): Elaborating entity "vgaController" for hierarchy "vgaController:vgaCont" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 38
+Info (12128): Elaborating entity "startScreen" for hierarchy "startScreen:initialScreenDrawer" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 43
+Warning (10230): Verilog HDL assignment warning at startScreen.sv(32): truncated value with size 32 to match size of target (10) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at startScreen.sv(33): truncated value with size 32 to match size of target (10) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 33
+Warning (10230): Verilog HDL assignment warning at startScreen.sv(35): truncated value with size 32 to match size of target (10) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 35
+Warning (10230): Verilog HDL assignment warning at startScreen.sv(36): truncated value with size 32 to match size of target (10) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 36
+Warning (10230): Verilog HDL assignment warning at startScreen.sv(39): truncated value with size 32 to match size of target (10) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 39
+Warning (10230): Verilog HDL assignment warning at startScreen.sv(40): truncated value with size 32 to match size of target (10) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 40
+Warning (10230): Verilog HDL assignment warning at startScreen.sv(43): truncated value with size 32 to match size of target (10) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 43
+Warning (10230): Verilog HDL assignment warning at startScreen.sv(44): truncated value with size 32 to match size of target (10) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 44
+Warning (10240): Verilog HDL Always Construct warning at startScreen.sv(29): inferring latch(es) for variable "ball_posX", which holds its previous value in one or more paths through the always construct File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Warning (10240): Verilog HDL Always Construct warning at startScreen.sv(29): inferring latch(es) for variable "ball_posY", which holds its previous value in one or more paths through the always construct File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (10041): Inferred latch for "ball_posY[0]" at startScreen.sv(29) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (10041): Inferred latch for "ball_posY[1]" at startScreen.sv(29) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (10041): Inferred latch for "ball_posY[2]" at startScreen.sv(29) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (10041): Inferred latch for "ball_posY[3]" at startScreen.sv(29) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (10041): Inferred latch for "ball_posY[4]" at startScreen.sv(29) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (10041): Inferred latch for "ball_posY[5]" at startScreen.sv(29) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (10041): Inferred latch for "ball_posY[6]" at startScreen.sv(29) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (10041): Inferred latch for "ball_posY[7]" at startScreen.sv(29) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (10041): Inferred latch for "ball_posY[8]" at startScreen.sv(29) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (10041): Inferred latch for "ball_posY[9]" at startScreen.sv(29) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (10041): Inferred latch for "ball_posX[0]" at startScreen.sv(29) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (10041): Inferred latch for "ball_posX[1]" at startScreen.sv(29) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (10041): Inferred latch for "ball_posX[2]" at startScreen.sv(29) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (10041): Inferred latch for "ball_posX[3]" at startScreen.sv(29) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (10041): Inferred latch for "ball_posX[4]" at startScreen.sv(29) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (10041): Inferred latch for "ball_posX[5]" at startScreen.sv(29) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (10041): Inferred latch for "ball_posX[6]" at startScreen.sv(29) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (10041): Inferred latch for "ball_posX[7]" at startScreen.sv(29) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (10041): Inferred latch for "ball_posX[8]" at startScreen.sv(29) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (10041): Inferred latch for "ball_posX[9]" at startScreen.sv(29) File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv Line: 29
+Info (12128): Elaborating entity "arm" for hierarchy "arm:arm0" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 60
+Info (12128): Elaborating entity "Counter" for hierarchy "arm:arm0|Counter:cycle_counter_inst" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/arm.sv Line: 24
+Info (12128): Elaborating entity "controller" for hierarchy "arm:arm0|controller:c" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/arm.sv Line: 39
+Info (12128): Elaborating entity "decoder" for hierarchy "arm:arm0|controller:c|decoder:dec" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/controller.sv Line: 35
+Info (12128): Elaborating entity "condlogic" for hierarchy "arm:arm0|controller:c|condlogic:cl" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/controller.sv Line: 51
+Info (12128): Elaborating entity "flopenr" for hierarchy "arm:arm0|controller:c|condlogic:cl|flopenr:flagreg1" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/condlogic.sv Line: 27
+Info (12128): Elaborating entity "condcheck" for hierarchy "arm:arm0|controller:c|condlogic:cl|condcheck:cc" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/condlogic.sv Line: 41
+Info (12128): Elaborating entity "datapath" for hierarchy "arm:arm0|datapath:dp" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/arm.sv Line: 58
+Info (12128): Elaborating entity "adder" for hierarchy "arm:arm0|datapath:dp|adder:pcadd1" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv Line: 39
+Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm0|datapath:dp|mux2:pcmux" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv Line: 46
+Info (12128): Elaborating entity "flopr" for hierarchy "arm:arm0|datapath:dp|flopr:pcreg" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv Line: 47
+Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm0|datapath:dp|mux2:ra1mux" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv Line: 50
+Info (12128): Elaborating entity "regfile" for hierarchy "arm:arm0|datapath:dp|regfile:rf" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv Line: 57
+Info (12128): Elaborating entity "alu" for hierarchy "arm:arm0|datapath:dp|alu:alu0" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv Line: 65
+Info (12128): Elaborating entity "extend" for hierarchy "arm:arm0|datapath:dp|extend:ext" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv Line: 68
+Info (12128): Elaborating entity "imem" for hierarchy "imem:imem0" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 66
+Warning (10030): Net "RAM.data_a" at imem.sv(8) has no driver or initial value, using a default initial value '0' File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv Line: 8
+Warning (10030): Net "RAM.waddr_a" at imem.sv(8) has no driver or initial value, using a default initial value '0' File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv Line: 8
+Warning (10030): Net "RAM.we_a" at imem.sv(8) has no driver or initial value, using a default initial value '0' File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv Line: 8
+Info (12128): Elaborating entity "dmem" for hierarchy "dmem:dmem0" File: C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv Line: 77
+Warning (12241): 4 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (144001): Generated suppressed messages file C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/output_files/proyecto_final_taller.map.smsg
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 15 warnings
-    Info: Peak virtual memory: 4795 megabytes
-    Info: Processing ended: Mon Jun 23 17:01:16 2025
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:13
+    Info: Peak virtual memory: 4808 megabytes
+    Info: Processing ended: Mon Jun 23 22:55:49 2025
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:15
 
 
 +--------------------------------------------+
 ; Analysis & Elaboration Suppressed Messages ;
 +--------------------------------------------+
-The suppressed messages can be found in C:/Users/Gabriel/Desktop/funda_nuevo/Proyecto_final_funda/output_files/proyecto_final_taller.map.smsg.
+The suppressed messages can be found in C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/output_files/proyecto_final_taller.map.smsg.
 
 
