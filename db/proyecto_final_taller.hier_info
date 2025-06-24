@@ -492,18 +492,6 @@ Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 |top|arm:arm0|controller:c
 clk => clk.IN1
 reset => reset.IN1
-Instr[0] => ~NO_FANOUT~
-Instr[1] => ~NO_FANOUT~
-Instr[2] => ~NO_FANOUT~
-Instr[3] => ~NO_FANOUT~
-Instr[4] => ~NO_FANOUT~
-Instr[5] => ~NO_FANOUT~
-Instr[6] => ~NO_FANOUT~
-Instr[7] => ~NO_FANOUT~
-Instr[8] => ~NO_FANOUT~
-Instr[9] => ~NO_FANOUT~
-Instr[10] => ~NO_FANOUT~
-Instr[11] => ~NO_FANOUT~
 Instr[12] => Instr[12].IN1
 Instr[13] => Instr[13].IN1
 Instr[14] => Instr[14].IN1
@@ -536,7 +524,7 @@ ImmSrc[1] <= decoder:dec.ImmSrc
 ALUSrc <= decoder:dec.ALUSrc
 ALUControl[0] <= decoder:dec.ALUControl
 ALUControl[1] <= decoder:dec.ALUControl
-MemWrite <= condlogic:cl.MemWrite
+MemWrite <= MemWrite.DB_MAX_OUTPUT_PORT_TYPE
 MemtoReg <= decoder:dec.MemtoReg
 PCSrc <= condlogic:cl.PCSrc
 

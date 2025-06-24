@@ -21,12 +21,9 @@ module testbench_dmem();
         clk = 0;
         reset = 1;
         MemWrite = 0;
-        DataAdr = 32'h64;  // Dirección de memoria
+        DataAdr = 32'h64;  // Dirección de memoria inicial
         WriteData = 32'hA;  // Dato a escribir
-
-        // Activar reset y luego desactivarlo después de 10 ciclos
-        #10 reset = 0;
-        #10 MemWrite = 1;  // Activar la escritura
+        #10 reset = 0;      // Desactivar el reset
     end
 
     // Generar reloj
@@ -37,20 +34,29 @@ module testbench_dmem();
         #5;
     end
 
-    // Condición de parada después de 100 ciclos
-    integer cycle_count = 0;
+    // Recorrer direcciones de memoria de 10 en 10 hasta 1020
+    integer i;
     always @(posedge clk) begin
-        cycle_count = cycle_count + 1;
-        if (cycle_count == 100) begin  // Parar la simulación después de 100 ciclos
-            $display("Simulation stopped after 100 cycles");
-            $stop;
-        end
-    end
+        if (!reset) begin
+            // Realizar escritura y lectura cada vez que MemWrite esté activo
+            for (i = 0; i < 101; i = i + 1) begin
+                // Escribir datos
+                DataAdr <= 32'h64 + i * 10;  // Incrementar dirección de 10 en 10
+                WriteData <= 32'hA + i;       // Escribir datos incrementales
 
-    // Verificar escritura en memoria
-    always @(posedge clk) begin
-        if (MemWrite) begin
-            $display("Writing data %h to address %h", WriteData, DataAdr);
+                MemWrite <= 1;                // Activar MemWrite
+                #10 MemWrite <= 0;            // Desactivar MemWrite
+
+                // Leer y verificar el dato escrito
+                #10;
+                if (ReadData !== WriteData) begin
+                    $display("ERROR: Data mismatch at address %h, expected %h but got %h", DataAdr, WriteData, ReadData);
+                end else begin
+                    $display("Success: Data %h written and read %h correctly at address %h", WriteData, ReadData, DataAdr);
+                end
+            end
+            $display("Simulation completed successfully.");
+            $stop;  // Detener la simulación después de recorrer todas las direcciones
         end
     end
 

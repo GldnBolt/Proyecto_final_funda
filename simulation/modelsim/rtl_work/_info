@@ -8,189 +8,189 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/simulation/modelsim
+Z0 dC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/simulation/modelsim
 vadder
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1750741126
+Z2 !s110 1750759524
 !i10b 1
 !s100 5RWo<zYeN5=XjXjTia>8>0
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-ICNXb0OkDKOW8cRMUZQ^fL0
+IHQ800cl0B6=^CE<]boa`J1
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1750144219
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/adder.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/adder.sv
+Z5 w1750574162
+8C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/adder.sv
+FC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/adder.sv
 !i122 4
 L0 1 9
-Z5 OV;L;2020.1;71
+Z6 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1750741126.000000
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/adder.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/adder.sv|
+Z7 !s108 1750759524.000000
+!s107 C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda|C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/adder.sv|
 !i113 1
-Z7 o-sv -work work
-Z8 !s92 -sv -work work +incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda
-Z9 tCvgOpt 0
+Z8 o-sv -work work
+Z9 !s92 -sv -work work +incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda
+Z10 tCvgOpt 0
 valu
 R1
-Z10 !s110 1750741127
+R2
 !i10b 1
 !s100 5`fTb`T[^7oB6zFK[:bZZ2
 R3
-IIk7HOR3VGl1[WRU<KGl0a3
+IYmS=aiX0zAzD2KfU=OfEl0
 R4
 S1
 R0
-w1750711577
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/alu.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/alu.sv
+w1750754534
+8C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/alu.sv
+FC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/alu.sv
 !i122 12
 L0 2 46
-R5
+R6
 r1
 !s85 0
 31
-Z11 !s108 1750741127.000000
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/alu.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/alu.sv|
-!i113 1
 R7
+!s107 C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda|C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/alu.sv|
+!i113 1
 R8
 R9
+R10
 varm
 R1
-!s110 1750741125
+R2
 !i10b 1
 !s100 5e`4>iQ=U>TShF[8SZ<9g1
 R3
-IS?U;HVkn0D_]hH<<fVLU43
+INU`XeX@gP^aPRg0Ji<=Ug0
 R4
 S1
 R0
-w1750313998
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/arm.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/arm.sv
+w1750717311
+8C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/arm.sv
+FC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/arm.sv
 !i122 0
-L0 1 60
-R5
+Z11 L0 1 60
+R6
 r1
 !s85 0
 31
-!s108 1750741125.000000
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/arm.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/arm.sv|
-!i113 1
 R7
+!s107 C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/arm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda|C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/arm.sv|
+!i113 1
 R8
 R9
+R10
 vcondcheck
 R1
 R2
 !i10b 1
 !s100 ?@mTa31hSQgS=3k1X]G;m0
 R3
-IF`a4A9iQ`3_QzJTlGAJ]o3
+Ii<3TndlM_a^_zbCM6zNob0
 R4
 S1
 R0
-Z12 w1750056078
-Z13 8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/condlogic.sv
-Z14 FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/condlogic.sv
+R5
+Z12 8C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/condlogic.sv
+Z13 FC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/condlogic.sv
 !i122 2
 L0 51 32
-R5
+R6
 r1
 !s85 0
 31
-R6
-Z15 !s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/condlogic.sv|
-Z16 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/condlogic.sv|
-!i113 1
 R7
+Z14 !s107 C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/condlogic.sv|
+Z15 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda|C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/condlogic.sv|
+!i113 1
 R8
 R9
+R10
 vcondlogic
 R1
 R2
 !i10b 1
 !s100 n19l=e9_9DI:W4i_RfM3m1
 R3
-Ic]:g[NibR^b64O;=dcGZ92
+IZOR@:;iST4e3zhb@jLYR_0
 R4
 S1
 R0
+R5
 R12
 R13
-R14
 !i122 2
 L0 2 47
-R5
+R6
 r1
 !s85 0
 31
-R6
-R15
-R16
-!i113 1
 R7
+R14
+R15
+!i113 1
 R8
 R9
+R10
 vcontroller
 R1
-R10
+Z16 !s110 1750759525
 !i10b 1
-!s100 @U^Mn<h2bB]NCEcRZnUJO2
+!s100 9^4`:?UXlz^OG^C[A>k3C2
 R3
-I[fzZPNK1G:14jgn^OeK0U3
+IB^EgAlkPZQj9We[:Bo2@=3
 R4
 S1
 R0
-w1750737956
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/controller.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/controller.sv
+w1750758640
+8C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/controller.sv
+FC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/controller.sv
 !i122 14
-L0 1 69
-R5
+Z17 L0 1 64
+R6
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/controller.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/controller.sv|
+Z18 !s108 1750759525.000000
+!s107 C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda|C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/controller.sv|
 !i113 1
-R7
 R8
 R9
+R10
 vCounter
 R1
-R10
+R2
 !i10b 1
 !s100 H`dS@X]iZkBGkCzAN952h0
 R3
-I?^G;TBdzl:EPHL5_UhH::0
+IQec>;M?74K>C0z?_dILCh0
 R4
 S1
 R0
-w1750142031
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/counter.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/counter.sv
+R5
+8C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/counter.sv
+FC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/counter.sv
 !i122 11
 L0 1 16
-R5
+R6
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/counter.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/counter.sv|
-!i113 1
 R7
+!s107 C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/counter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda|C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/counter.sv|
+!i113 1
 R8
 R9
+R10
 n@counter
 vdatapath
 R1
@@ -198,363 +198,363 @@ R2
 !i10b 1
 !s100 XzaaY8U]GTnl255X>[bS02
 R3
-I:fPo0D]SN<nioBjoL56Jo0
+I@Z_[ZgEzX1=:^i^efKgUA1
 R4
 S1
 R0
-Z17 w1750723477
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv
+w1750758972
+8C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/datapath.sv
+FC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/datapath.sv
 !i122 3
 L0 1 73
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/datapath.sv|
-!i113 1
 R7
+!s107 C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda|C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/datapath.sv|
+!i113 1
 R8
 R9
+R10
 vdecoder
 R1
 R2
 !i10b 1
-!s100 f0z;W1chcS19?gEJ8W4ZU0
+!s100 LgUYM3P];VT?Umn3X];LI0
 R3
-IcfEe=N5ZRU=2<W7`>5W1a2
+I<;<U8MlIQGn76TEA1jb8L0
 R4
 S1
 R0
-w1750740432
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/decoder.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/decoder.sv
+w1750754533
+8C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/decoder.sv
+FC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/decoder.sv
 !i122 1
-L0 1 80
-R5
+R11
+R6
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/decoder.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/decoder.sv|
-!i113 1
 R7
+!s107 C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda|C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/decoder.sv|
+!i113 1
 R8
 R9
+R10
 vdmem
 R1
-Z18 !s110 1750741128
+R16
 !i10b 1
-!s100 _l?Ba25:DDU`^ZRzU9U<?0
+!s100 oPlhEUOb8^?P7DDn0=^iX1
 R3
-IPeIPjG4zk`o32?BV6E8UU3
+IERzR]mFofnZR1zfIRZ>Q[2
 R4
 S1
 R0
-w1750723561
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/dmem.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/dmem.sv
+w1750741689
+8C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/dmem.sv
+FC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/dmem.sv
 !i122 17
 L0 1 31
-R5
+R6
 r1
 !s85 0
 31
-Z19 !s108 1750741128.000000
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/dmem.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/dmem.sv|
+R18
+!s107 C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/dmem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda|C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/dmem.sv|
 !i113 1
-R7
 R8
 R9
+R10
 vextend
 R1
 R2
 !i10b 1
 !s100 XLX;Dl0=Zbmk]FWI4jQgB0
 R3
-IR?D2lOzSc6[K5O`1mBNgI0
+I<lQiC@7@dUDLd]1IK;bfd2
 R4
 S1
 R0
-w1750056528
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/extend.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/extend.sv
+R5
+8C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/extend.sv
+FC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/extend.sv
 !i122 7
 L0 2 18
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/extend.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/extend.sv|
-!i113 1
 R7
+!s107 C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/extend.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda|C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/extend.sv|
+!i113 1
 R8
 R9
+R10
 vflopenr
 R1
-R10
+R2
 !i10b 1
 !s100 iOXbKHA1mE]H4o]?cZJ8H2
 R3
-INiEB>ne2bn^SX>U[GODX`0
+I1M[;I7ob]19Z2NjYhHO=o3
 R4
 S1
 R0
-w1750056685
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopenr.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopenr.sv
+R5
+8C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/flopenr.sv
+FC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/flopenr.sv
 !i122 9
 L0 2 17
-R5
+R6
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopenr.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopenr.sv|
-!i113 1
 R7
+!s107 C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/flopenr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda|C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/flopenr.sv|
+!i113 1
 R8
 R9
+R10
 vflopr
 R1
 R2
 !i10b 1
 !s100 kkWWGGkPSnC8QLnF=N:ND2
 R3
-I=47HYX]DL`fz0gFJ?T]og0
+I]8mNXRm]La5460hfAYVRP0
 R4
 S1
 R0
-w1750056568
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopr.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopr.sv
+R5
+8C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/flopr.sv
+FC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/flopr.sv
 !i122 8
 L0 2 16
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopr.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/flopr.sv|
-!i113 1
 R7
+!s107 C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/flopr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda|C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/flopr.sv|
+!i113 1
 R8
 R9
+R10
 vimem
 R1
-R18
+R16
 !i10b 1
-!s100 i;j`3>0`>VMMQ?4O^ZK910
+!s100 YlTlnHU=l3P`6cPYCWO?R0
 R3
-I_>LmZbZ9^S?]FdGkU0[=Q2
+I]Ph3zbTk:`Nzon3[WBm0i2
 R4
 S1
 R0
-w1750723562
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv
+w1750741688
+8C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/imem.sv
+FC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/imem.sv
 !i122 18
 L0 2 19
-R5
+R6
 r1
 !s85 0
 31
-R19
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/imem.sv|
+R18
+!s107 C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/imem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda|C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/imem.sv|
 !i113 1
-R7
 R8
 R9
+R10
 vmux2
 R1
 R2
 !i10b 1
 !s100 6zN[Uom>nP:33>HaM7YT02
 R3
-I`h@=jV4[A@gC9^T:Q3ZLa2
+IT2oK[@LX4=6PE4iAN?JmD3
 R4
 S1
 R0
-w1750318443
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/mux2.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/mux2.sv
+R5
+8C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/mux2.sv
+FC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/mux2.sv
 !i122 6
 L0 2 10
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/mux2.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/mux2.sv|
-!i113 1
 R7
+!s107 C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/mux2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda|C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/mux2.sv|
+!i113 1
 R8
 R9
+R10
 vpll
 R1
-R10
+R16
 !i10b 1
 !s100 oeb4_01Pm8QR1FQIi>_Gh0
 R3
-I3>Q=2Q_9[W_`GlG8R=Azb3
+I^5RNflz<^L^kCAJPAD`kM3
 R4
 S1
 R0
-Z20 w1750573111
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/pll.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/pll.sv
+R5
+8C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/pll.sv
+FC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/pll.sv
 !i122 13
 L0 5 17
-R5
+R6
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/pll.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/pll.sv|
-!i113 1
 R7
+!s107 C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/pll.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda|C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/pll.sv|
+!i113 1
 R8
 R9
+R10
 vregfile
 R1
 R2
 !i10b 1
 !s100 5Dc;TGF5:2[am7h258n[n2
 R3
-I[Q_`zQg^<kmgTb_=[jF?g2
+IB<mW5lH^cB;hSa:02hVLI3
 R4
 S1
 R0
-R17
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/regfile.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/regfile.sv
+w1750754321
+8C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/regfile.sv
+FC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/regfile.sv
 !i122 5
 L0 1 20
-R5
+R6
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/regfile.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/regfile.sv|
-!i113 1
 R7
+!s107 C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/regfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda|C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/regfile.sv|
+!i113 1
 R8
 R9
+R10
 vstartScreen
 R1
-R18
+R16
 !i10b 1
 !s100 HefmKMWj7bjze3KeI]2Ae2
 R3
-I?JiN_08X_IXLmIiG:2laD1
+IU[ZYfEW8KGgaFmcUYdS5B1
 R4
 S1
 R0
-w1750713175
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv
+Z19 w1750718438
+8C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/startScreen.sv
+FC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/startScreen.sv
 !i122 16
-L0 1 64
-R5
+R17
+R6
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/startScreen.sv|
+R18
+!s107 C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/startScreen.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda|C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/startScreen.sv|
 !i113 1
-R7
 R8
 R9
+R10
 nstart@screen
-vtestbench_regfile
+vtestbench_controller
 R1
-R18
+R16
 !i10b 1
-!s100 NFcMSoikKc`[MJB3jS_g^3
+!s100 J;WK;7GU9MlmUmm2SoQ2C2
 R3
-I;:8Ijm3VU>4CnF>`LRb2J1
+IP<TY9o[bKYe_UX?j]iY7=3
 R4
 S1
 R0
-w1750741090
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench_regfile.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench_regfile.sv
+w1750746530
+8C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/testbench_controller.sv
+FC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/testbench_controller.sv
 !i122 19
-L0 1 59
-R5
+L0 1 123
+R6
 r1
 !s85 0
 31
-R19
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench_regfile.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/testbench_regfile.sv|
+R18
+!s107 C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/testbench_controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda|C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/testbench_controller.sv|
 !i113 1
-R7
 R8
 R9
+R10
 vtop
 R1
-R10
+R2
 !i10b 1
 !s100 _;<M@TGX<LfAZh;[ib6^23
 R3
-IOozdK<<8[HNGMK604b@Nh0
+I<nY8n[^6`=9aXgW3XXSjX2
 R4
 S1
 R0
-w1750736323
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv
+R19
+8C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/top.sv
+FC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/top.sv
 !i122 10
 L0 1 79
-R5
+R6
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/top.sv|
-!i113 1
 R7
+!s107 C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda|C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/top.sv|
+!i113 1
 R8
 R9
+R10
 vvgaController
 R1
-R10
+R16
 !i10b 1
 !s100 f_Z2WI`Pg4AbC3>Bc_3HW0
 R3
-InFT]g@oQAkTWjQ:JU:7`X2
+I1WMSAB;0TfRI;WAb8WcN21
 R4
 S1
 R0
-R20
-8C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/vgaController.sv
-FC:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/vgaController.sv
+w1750632862
+8C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/vgaController.sv
+FC:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/vgaController.sv
 !i122 15
 L0 7 39
-R5
+R6
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/vgaController.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda|C:/Users/Xpc/Documents/GitHub/Proyecto_Final/Proyecto_final_funda/vgaController.sv|
+R18
+!s107 C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/vgaController.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda|C:/Users/andre/OneDrive/Escritorio/Proyecto_final_funda/vgaController.sv|
 !i113 1
-R7
 R8
 R9
+R10
 nvga@controller

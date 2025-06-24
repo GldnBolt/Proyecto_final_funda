@@ -1,4 +1,4 @@
-// Copyright (C) 2022  Intel Corporation. All rights reserved.
+// Copyright (C) 2023  Intel Corporation. All rights reserved.
 // Your use of Intel Corporation's design tools, logic functions 
 // and other software and tools, and any partner logic 
 // functions, and any output files from any of the foregoing 
@@ -15,9 +15,9 @@
 
 // VENDOR "Altera"
 // PROGRAM "Quartus Prime"
-// VERSION "Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition"
+// VERSION "Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition"
 
-// DATE "06/23/2025 16:30:02"
+// DATE "06/23/2025 23:09:01"
 
 // 
 // Device: Altera 5CSXFC6D6F31C6 Package FBGA896
@@ -40,16 +40,16 @@ module top (
 	r,
 	g,
 	b);
-input 	logic clk ;
-input 	logic reset ;
-output 	reg vgaclk ;
-output 	reg hsync ;
-output 	reg vsync ;
-output 	reg sync_b ;
-output 	reg blank_b ;
-output 	logic [7:0] r ;
-output 	logic [7:0] g ;
-output 	logic [7:0] b ;
+input 	clk;
+input 	reset;
+output 	vgaclk;
+output 	hsync;
+output 	vsync;
+output 	sync_b;
+output 	blank_b;
+output 	[7:0] r;
+output 	[7:0] g;
+output 	[7:0] b;
 
 // Design Ports Information
 // reset	=>  Location: PIN_AA30,	 I/O Standard: 2.5 V,	 Current Strength: Default
